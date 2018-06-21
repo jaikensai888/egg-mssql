@@ -5,7 +5,7 @@
  */
 const mock = require("egg-mock");
 const assert = require("assert");
-const sql = require("mssql");
+
 // const { app, mock, assert } = require('egg-mock/bootstrap');
 
 describe("test/mssql.test.js", () => {
@@ -20,9 +20,19 @@ describe("test/mssql.test.js", () => {
   after(() => app.close());
   afterEach(mock.restore);
 
-  it("test simple insert", function*() {
-    const pool = yield app.mssql;
-    const result = yield pool.request().query("select 1");
-    assert(result.recordset[0] == 1);
+  it("test singlonDb", function* () {
+    // const pool = yield app.mssql;
+    // const result = yield pool.request().query("select 1 as a");
+    // assert(result.recordset[0].a == 1);
+  });
+  it("test mutiDb", async function () {
+    const pool = await app.mssql.get('db1');
+    console.log(pool);
+    const result = await pool.request().query("select 1 as a");
+    assert(result.recordset[0].a == 1);
+    // const pool2 = await app.mssql.db2;
+    // const result2 = await pool.request().query("select 2 as a");
+    // assert(result2.recordset[0].a == 2);
+
   });
 });

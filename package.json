@@ -46,12 +46,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/eggjs/egg-mssql.git"
+    "url": "https://github.com/jaikensai888/egg-mssql.git"
   },
   "bugs": {
-    "url": "https://github.com/eggjs/egg/issues"
+    "url": "https://github.com/jaikensai888/egg-mssql/issues"
   },
-  "homepage": "https://github.com/eggjs/egg-mssql#readme",
+  "homepage": "https://github.com/jaikensai888/egg-mssql",
   "author": "tao",
   "license": "MIT"
 }

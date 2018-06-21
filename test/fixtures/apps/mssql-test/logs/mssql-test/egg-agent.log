@@ -1,2 +1,4 @@
-2018-04-20 16:05:57,113 INFO 22588 [egg:logger] init all loggers with options: {"dir":"/Users/jetone/Documents/WorkingPlace/svn/ClientAssistantSys/trunk/restfulApi/lib/plugin/egg-mssql/test/fixtures/apps/mssql-test/logs/mssql-test","encoding":"utf8","env":"unittest","level":"INFO","consoleLevel":"WARN","disableConsoleAfterReady":false,"outputJSON":false,"buffer":false,"appLogName":"mssql-test-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{},"allowDebugAtProd":true,"type":"agent"}
-2018-04-20 16:05:57,319 INFO 22588 [egg-watcher:agent] watcher start success
+2018-06-21 10:55:20,416 INFO 64509 [egg:logger] init all loggers with options: {"dir":"/Users/jetone/Documents/WorkingPlace/GitHub/egg-mssql/test/fixtures/apps/mssql-test/logs/mssql-test","encoding":"utf8","env":"unittest","level":"INFO","consoleLevel":"WARN","disableConsoleAfterReady":false,"outputJSON":false,"buffer":false,"appLogName":"mssql-test-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{},"allowDebugAtProd":false,"type":"agent"}
+2018-06-21 10:55:20,551 INFO 64509 [egg:core] dump config after load, 6ms
+2018-06-21 10:55:20,624 INFO 64509 [egg-watcher:agent] watcher start success
+2018-06-21 10:55:20,634 INFO 64509 [egg:core] dump config after ready, 8ms
