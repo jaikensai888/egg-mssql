@@ -1,0 +1,275 @@
+{
+  "mssql": {
+    "db1": {
+      "user": "/Users/jetone/Documents/WorkingPlace/svn/ClientAssistantSys/trunk/restfulApi/lib/plugin/egg-mssql/config/config.default.js",
+      "password": "/Users/jetone/Documents/WorkingPlace/svn/ClientAssistantSys/trunk/restfulApi/lib/plugin/egg-mssql/config/config.default.js",
+      "server": "/Users/jetone/Documents/WorkingPlace/svn/ClientAssistantSys/trunk/restfulApi/lib/plugin/egg-mssql/config/config.default.js",
+      "database": "/Users/jetone/Documents/WorkingPlace/svn/ClientAssistantSys/trunk/restfulApi/lib/plugin/egg-mssql/config/config.default.js",
+      "port": "/Users/jetone/Documents/WorkingPlace/svn/ClientAssistantSys/trunk/restfulApi/lib/plugin/egg-mssql/config/config.default.js"
+    }
+  },
+  "session": {
+    "maxAge": "/Users/jetone/Documents/WorkingPlace/svn/ClientAssistantSys/trunk/restfulApi/lib/plugin/egg-mssql/node_modules/egg-session/config/config.default.js",
+    "key": "/Users/jetone/Documents/WorkingPlace/svn/ClientAssistantSys/trunk/restfulApi/lib/plugin/egg-mssql/node_modules/egg-session/config/config.default.js",
+    "httpOnly": "/Users/jetone/Documents/WorkingPlace/svn/ClientAssistantSys/trunk/restfulApi/lib/plugin/egg-mssql/node_modules/egg-session/config/config.default.js",
+    "encrypt": "/Users/jetone/Documents/WorkingPlace/svn/ClientAssistantSys/trunk/restfulApi/lib/plugin/egg-mssql/node_modules/egg-session/config/config.default.js"
+  },
+  "security": {
+    "domainWhiteList": "/Users/jetone/Documents/WorkingPlace/svn/ClientAssistantSys/trunk/restfulApi/lib/plugin/egg-mssql/node_modules/egg-security/config/config.default.js",
+    "protocolWhiteList": "/Users/jetone/Documents/WorkingPlace/svn/ClientAssistantSys/trunk/restfulApi/lib/plugin/egg-mssql/node_modules/egg-security/config/config.default.js",
+    "defaultMiddleware": "/Users/jetone/Documents/WorkingPlace/svn/ClientAssistantSys/trunk/restfulApi/lib/plugin/egg-mssql/node_modules/egg-security/config/config.default.js",
+    "csrf": {
+      "enable": "/Users/jetone/Documents/WorkingPlace/svn/ClientAssistantSys/trunk/restfulApi/lib/plugin/egg-mssql/node_modules/egg-security/config/config.default.js",
+      "useSession": "/Users/jetone/Documents/WorkingPlace/svn/ClientAssistantSys/trunk/restfulApi/lib/plugin/egg-mssql/node_modules/egg-security/config/config.default.js",
+      "ignoreJSON": "/Users/jetone/Documents/WorkingPlace/svn/ClientAssistantSys/trunk/restfulApi/lib/plugin/egg-mssql/node_modules/egg-security/config/config.default.js",
+      "cookieName": "/Users/jetone/Documents/WorkingPlace/svn/ClientAssistantSys/trunk/restfulApi/lib/plugin/egg-mssql/node_modules/egg-security/config/config.default.js",
+      "sessionName": "/Users/jetone/Documents/WorkingPlace/svn/ClientAssistantSys/trunk/restfulApi/lib/plugin/egg-mssql/node_modules/egg-security/config/config.default.js",
+      "headerName": "/Users/jetone/Documents/WorkingPlace/svn/ClientAssistantSys/trunk/restfulApi/lib/plugin/egg-mssql/node_modules/egg-security/config/config.default.js",
+      "bodyName": "/Users/jetone/Documents/WorkingPlace/svn/ClientAssistantSys/trunk/restfulApi/lib/plugin/egg-mssql/node_modules/egg-security/config/config.default.js",
+      "queryName": "/Users/jetone/Documents/WorkingPlace/svn/ClientAssistantSys/trunk/restfulApi/lib/plugin/egg-mssql/node_modules/egg-security/config/config.default.js"
+    },
+    "xframe": {
+      "enable": "/Users/jetone/Documents/WorkingPlace/svn/ClientAssistantSys/trunk/restfulApi/lib/plugin/egg-mssql/node_modules/egg-security/config/config.default.js",
+      "value": "/Users/jetone/Documents/WorkingPlace/svn/ClientAssistantSys/trunk/restfulApi/lib/plugin/egg-mssql/node_modules/egg-security/config/config.default.js"
+    },
+    "hsts": {
+      "enable": "/Users/jetone/Documents/WorkingPlace/svn/ClientAssistantSys/trunk/restfulApi/lib/plugin/egg-mssql/node_modules/egg-security/config/config.default.js",
+      "maxAge": "/Users/jetone/Documents/WorkingPlace/svn/ClientAssistantSys/trunk/restfulApi/lib/plugin/egg-mssql/node_modules/egg-security/config/config.default.js",
+      "includeSubdomains": "/Users/jetone/Documents/WorkingPlace/svn/ClientAssistantSys/trunk/restfulApi/lib/plugin/egg-mssql/node_modules/egg-security/config/config.default.js"
+    },
+    "dta": {
+      "enable": "/Users/jetone/Documents/WorkingPlace/svn/ClientAssistantSys/trunk/restfulApi/lib/plugin/egg-mssql/node_modules/egg-security/config/config.default.js"
+    },
+    "methodnoallow": {
+      "enable": "/Users/jetone/Documents/WorkingPlace/svn/ClientAssistantSys/trunk/restfulApi/lib/plugin/egg-mssql/node_modules/egg-security/config/config.default.js"
+    },
+    "noopen": {
+      "enable": "/Users/jetone/Documents/WorkingPlace/svn/ClientAssistantSys/trunk/restfulApi/lib/plugin/egg-mssql/node_modules/egg-security/config/config.default.js"
+    },
+    "nosniff": {
+      "enable": "/Users/jetone/Documents/WorkingPlace/svn/ClientAssistantSys/trunk/restfulApi/lib/plugin/egg-mssql/node_modules/egg-security/config/config.default.js"
+    },
+    "referrerPolicy": {
+      "enable": "/Users/jetone/Documents/WorkingPlace/svn/ClientAssistantSys/trunk/restfulApi/lib/plugin/egg-mssql/node_modules/egg-security/config/config.default.js",
+      "value": "/Users/jetone/Documents/WorkingPlace/svn/ClientAssistantSys/trunk/restfulApi/lib/plugin/egg-mssql/node_modules/egg-security/config/config.default.js"
+    },
+    "xssProtection": {
+      "enable": "/Users/jetone/Documents/WorkingPlace/svn/ClientAssistantSys/trunk/restfulApi/lib/plugin/egg-mssql/node_modules/egg-security/config/config.default.js",
+      "value": "/Users/jetone/Documents/WorkingPlace/svn/ClientAssistantSys/trunk/restfulApi/lib/plugin/egg-mssql/node_modules/egg-security/config/config.default.js"
+    },
+    "csp": {
+      "enable": "/Users/jetone/Documents/WorkingPlace/svn/ClientAssistantSys/trunk/restfulApi/lib/plugin/egg-mssql/node_modules/egg-security/config/config.default.js",
+      "policy": "/Users/jetone/Documents/WorkingPlace/svn/ClientAssistantSys/trunk/restfulApi/lib/plugin/egg-mssql/node_modules/egg-security/config/config.default.js"
+    },
+    "ssrf": {
+      "ipBlackList": "/Users/jetone/Documents/WorkingPlace/svn/ClientAssistantSys/trunk/restfulApi/lib/plugin/egg-mssql/node_modules/egg-security/config/config.default.js",
+      "checkAddress": "/Users/jetone/Documents/WorkingPlace/svn/ClientAssistantSys/trunk/restfulApi/lib/plugin/egg-mssql/node_modules/egg-security/config/config.default.js"
+    }
+  },
+  "helper": {
+    "shtml": "/Users/jetone/Documents/WorkingPlace/svn/ClientAssistantSys/trunk/restfulApi/lib/plugin/egg-mssql/node_modules/egg-security/config/config.default.js"
+  },
+  "jsonp": {
+    "limit": "/Users/jetone/Documents/WorkingPlace/svn/ClientAssistantSys/trunk/restfulApi/lib/plugin/egg-mssql/node_modules/egg-jsonp/config/config.default.js",
+    "callback": "/Users/jetone/Documents/WorkingPlace/svn/ClientAssistantSys/trunk/restfulApi/lib/plugin/egg-mssql/node_modules/egg-jsonp/config/config.default.js",
+    "csrf": "/Users/jetone/Documents/WorkingPlace/svn/ClientAssistantSys/trunk/restfulApi/lib/plugin/egg-mssql/node_modules/egg-jsonp/config/config.default.js"
+  },
+  "onerror": {
+    "errorPageUrl": "/Users/jetone/Documents/WorkingPlace/svn/ClientAssistantSys/trunk/restfulApi/lib/plugin/egg-mssql/node_modules/egg-onerror/config/config.default.js",
+    "appErrorFilter": "/Users/jetone/Documents/WorkingPlace/svn/ClientAssistantSys/trunk/restfulApi/lib/plugin/egg-mssql/node_modules/egg-onerror/config/config.default.js"
+  },
+  "i18n": {
+    "defaultLocale": "/Users/jetone/Documents/WorkingPlace/svn/ClientAssistantSys/trunk/restfulApi/lib/plugin/egg-mssql/node_modules/egg-i18n/config/config.default.js",
+    "dirs": "/Users/jetone/Documents/WorkingPlace/svn/ClientAssistantSys/trunk/restfulApi/lib/plugin/egg-mssql/node_modules/egg-i18n/config/config.default.js",
+    "queryField": "/Users/jetone/Documents/WorkingPlace/svn/ClientAssistantSys/trunk/restfulApi/lib/plugin/egg-mssql/node_modules/egg-i18n/config/config.default.js",
+    "cookieField": "/Users/jetone/Documents/WorkingPlace/svn/ClientAssistantSys/trunk/restfulApi/lib/plugin/egg-mssql/node_modules/egg-i18n/config/config.default.js",
+    "cookieMaxAge": "/Users/jetone/Documents/WorkingPlace/svn/ClientAssistantSys/trunk/restfulApi/lib/plugin/egg-mssql/node_modules/egg-i18n/config/config.default.js"
+  },
+  "watcher": {
+    "type": "/Users/jetone/Documents/WorkingPlace/svn/ClientAssistantSys/trunk/restfulApi/lib/plugin/egg-mssql/node_modules/egg-watcher/config/config.unittest.js",
+    "eventSources": {
+      "default": "/Users/jetone/Documents/WorkingPlace/svn/ClientAssistantSys/trunk/restfulApi/lib/plugin/egg-mssql/node_modules/egg-watcher/config/config.default.js",
+      "development": "/Users/jetone/Documents/WorkingPlace/svn/ClientAssistantSys/trunk/restfulApi/lib/plugin/egg-mssql/node_modules/egg-watcher/config/config.default.js"
+    }
+  },
+  "multipart": {
+    "autoFields": "/Users/jetone/Documents/WorkingPlace/svn/ClientAssistantSys/trunk/restfulApi/lib/plugin/egg-mssql/node_modules/egg-multipart/config/config.default.js",
+    "defaultCharset": "/Users/jetone/Documents/WorkingPlace/svn/ClientAssistantSys/trunk/restfulApi/lib/plugin/egg-mssql/node_modules/egg-multipart/config/config.default.js",
+    "fieldNameSize": "/Users/jetone/Documents/WorkingPlace/svn/ClientAssistantSys/trunk/restfulApi/lib/plugin/egg-mssql/node_modules/egg-multipart/config/config.default.js",
+    "fieldSize": "/Users/jetone/Documents/WorkingPlace/svn/ClientAssistantSys/trunk/restfulApi/lib/plugin/egg-mssql/node_modules/egg-multipart/config/config.default.js",
+    "fields": "/Users/jetone/Documents/WorkingPlace/svn/ClientAssistantSys/trunk/restfulApi/lib/plugin/egg-mssql/node_modules/egg-multipart/config/config.default.js",
+    "fileSize": "/Users/jetone/Documents/WorkingPlace/svn/ClientAssistantSys/trunk/restfulApi/lib/plugin/egg-mssql/node_modules/egg-multipart/config/config.default.js",
+    "files": "/Users/jetone/Documents/WorkingPlace/svn/ClientAssistantSys/trunk/restfulApi/lib/plugin/egg-mssql/node_modules/egg-multipart/config/config.default.js",
+    "fileExtensions": "/Users/jetone/Documents/WorkingPlace/svn/ClientAssistantSys/trunk/restfulApi/lib/plugin/egg-mssql/node_modules/egg-multipart/config/config.default.js",
+    "whitelist": "/Users/jetone/Documents/WorkingPlace/svn/ClientAssistantSys/trunk/restfulApi/lib/plugin/egg-mssql/node_modules/egg-multipart/config/config.default.js"
+  },
+  "customLogger": {
+    "scheduleLogger": {
+      "consoleLevel": "/Users/jetone/Documents/WorkingPlace/svn/ClientAssistantSys/trunk/restfulApi/lib/plugin/egg-mssql/node_modules/egg-schedule/config/config.default.js",
+      "file": "/Users/jetone/Documents/WorkingPlace/svn/ClientAssistantSys/trunk/restfulApi/lib/plugin/egg-mssql/node_modules/egg-schedule/config/config.default.js"
+    }
+  },
+  "logrotator": {
+    "filesRotateByHour": "/Users/jetone/Documents/WorkingPlace/svn/ClientAssistantSys/trunk/restfulApi/lib/plugin/egg-mssql/node_modules/egg-logrotator/config/config.default.js",
+    "hourDelimiter": "/Users/jetone/Documents/WorkingPlace/svn/ClientAssistantSys/trunk/restfulApi/lib/plugin/egg-mssql/node_modules/egg-logrotator/config/config.default.js",
+    "filesRotateBySize": "/Users/jetone/Documents/WorkingPlace/svn/ClientAssistantSys/trunk/restfulApi/lib/plugin/egg-mssql/node_modules/egg-logrotator/config/config.default.js",
+    "maxFileSize": "/Users/jetone/Documents/WorkingPlace/svn/ClientAssistantSys/trunk/restfulApi/lib/plugin/egg-mssql/node_modules/egg-logrotator/config/config.default.js",
+    "maxFiles": "/Users/jetone/Documents/WorkingPlace/svn/ClientAssistantSys/trunk/restfulApi/lib/plugin/egg-mssql/node_modules/egg-logrotator/config/config.default.js",
+    "rotateDuration": "/Users/jetone/Documents/WorkingPlace/svn/ClientAssistantSys/trunk/restfulApi/lib/plugin/egg-mssql/node_modules/egg-logrotator/config/config.default.js",
+    "maxDays": "/Users/jetone/Documents/WorkingPlace/svn/ClientAssistantSys/trunk/restfulApi/lib/plugin/egg-mssql/node_modules/egg-logrotator/config/config.default.js"
+  },
+  "static": {
+    "prefix": "/Users/jetone/Documents/WorkingPlace/svn/ClientAssistantSys/trunk/restfulApi/lib/plugin/egg-mssql/node_modules/egg-static/config/config.default.js",
+    "dir": "/Users/jetone/Documents/WorkingPlace/svn/ClientAssistantSys/trunk/restfulApi/lib/plugin/egg-mssql/node_modules/egg-static/config/config.default.js",
+    "dynamic": "/Users/jetone/Documents/WorkingPlace/svn/ClientAssistantSys/trunk/restfulApi/lib/plugin/egg-mssql/node_modules/egg-static/config/config.default.js",
+    "preload": "/Users/jetone/Documents/WorkingPlace/svn/ClientAssistantSys/trunk/restfulApi/lib/plugin/egg-mssql/node_modules/egg-static/config/config.default.js",
+    "buffer": "/Users/jetone/Documents/WorkingPlace/svn/ClientAssistantSys/trunk/restfulApi/lib/plugin/egg-mssql/node_modules/egg-static/config/config.default.js",
+    "maxFiles": "/Users/jetone/Documents/WorkingPlace/svn/ClientAssistantSys/trunk/restfulApi/lib/plugin/egg-mssql/node_modules/egg-static/config/config.default.js"
+  },
+  "view": {
+    "root": "/Users/jetone/Documents/WorkingPlace/svn/ClientAssistantSys/trunk/restfulApi/lib/plugin/egg-mssql/node_modules/egg-view/config/config.default.js",
+    "cache": "/Users/jetone/Documents/WorkingPlace/svn/ClientAssistantSys/trunk/restfulApi/lib/plugin/egg-mssql/node_modules/egg-view/config/config.default.js",
+    "defaultExtension": "/Users/jetone/Documents/WorkingPlace/svn/ClientAssistantSys/trunk/restfulApi/lib/plugin/egg-mssql/node_modules/egg-view/config/config.default.js",
+    "defaultViewEngine": "/Users/jetone/Documents/WorkingPlace/svn/ClientAssistantSys/trunk/restfulApi/lib/plugin/egg-mssql/node_modules/egg-view/config/config.default.js",
+    "mapping": "/Users/jetone/Documents/WorkingPlace/svn/ClientAssistantSys/trunk/restfulApi/lib/plugin/egg-mssql/node_modules/egg-view/config/config.default.js"
+  },
+  "env": "/Users/jetone/Documents/WorkingPlace/svn/ClientAssistantSys/trunk/restfulApi/lib/plugin/egg-mssql/node_modules/egg/config/config.default.js",
+  "name": "/Users/jetone/Documents/WorkingPlace/svn/ClientAssistantSys/trunk/restfulApi/lib/plugin/egg-mssql/node_modules/egg/config/config.default.js",
+  "keys": "/Users/jetone/Documents/WorkingPlace/svn/ClientAssistantSys/trunk/restfulApi/lib/plugin/egg-mssql/node_modules/egg/config/config.default.js",
+  "proxy": "/Users/jetone/Documents/WorkingPlace/svn/ClientAssistantSys/trunk/restfulApi/lib/plugin/egg-mssql/node_modules/egg/config/config.default.js",
+  "protocolHeaders": "/Users/jetone/Documents/WorkingPlace/svn/ClientAssistantSys/trunk/restfulApi/lib/plugin/egg-mssql/node_modules/egg/config/config.default.js",
+  "ipHeaders": "/Users/jetone/Documents/WorkingPlace/svn/ClientAssistantSys/trunk/restfulApi/lib/plugin/egg-mssql/node_modules/egg/config/config.default.js",
+  "hostHeaders": "/Users/jetone/Documents/WorkingPlace/svn/ClientAssistantSys/trunk/restfulApi/lib/plugin/egg-mssql/node_modules/egg/config/config.default.js",
+  "pkg": {
+    "name": "/Users/jetone/Documents/WorkingPlace/svn/ClientAssistantSys/trunk/restfulApi/lib/plugin/egg-mssql/node_modules/egg/config/config.default.js",
+    "version": "/Users/jetone/Documents/WorkingPlace/svn/ClientAssistantSys/trunk/restfulApi/lib/plugin/egg-mssql/node_modules/egg/config/config.default.js",
+    "description": "/Users/jetone/Documents/WorkingPlace/svn/ClientAssistantSys/trunk/restfulApi/lib/plugin/egg-mssql/node_modules/egg/config/config.default.js",
+    "eggPlugin": {
+      "name": "/Users/jetone/Documents/WorkingPlace/svn/ClientAssistantSys/trunk/restfulApi/lib/plugin/egg-mssql/node_modules/egg/config/config.default.js"
+    },
+    "keywords": "/Users/jetone/Documents/WorkingPlace/svn/ClientAssistantSys/trunk/restfulApi/lib/plugin/egg-mssql/node_modules/egg/config/config.default.js",
+    "dependencies": {
+      "mssql": "/Users/jetone/Documents/WorkingPlace/svn/ClientAssistantSys/trunk/restfulApi/lib/plugin/egg-mssql/node_modules/egg/config/config.default.js"
+    },
+    "devDependencies": {
+      "autod": "/Users/jetone/Documents/WorkingPlace/svn/ClientAssistantSys/trunk/restfulApi/lib/plugin/egg-mssql/node_modules/egg/config/config.default.js",
+      "autod-egg": "/Users/jetone/Documents/WorkingPlace/svn/ClientAssistantSys/trunk/restfulApi/lib/plugin/egg-mssql/node_modules/egg/config/config.default.js",
+      "egg": "/Users/jetone/Documents/WorkingPlace/svn/ClientAssistantSys/trunk/restfulApi/lib/plugin/egg-mssql/node_modules/egg/config/config.default.js",
+      "egg-bin": "/Users/jetone/Documents/WorkingPlace/svn/ClientAssistantSys/trunk/restfulApi/lib/plugin/egg-mssql/node_modules/egg/config/config.default.js",
+      "egg-ci": "/Users/jetone/Documents/WorkingPlace/svn/ClientAssistantSys/trunk/restfulApi/lib/plugin/egg-mssql/node_modules/egg/config/config.default.js",
+      "egg-mock": "/Users/jetone/Documents/WorkingPlace/svn/ClientAssistantSys/trunk/restfulApi/lib/plugin/egg-mssql/node_modules/egg/config/config.default.js",
+      "eslint": "/Users/jetone/Documents/WorkingPlace/svn/ClientAssistantSys/trunk/restfulApi/lib/plugin/egg-mssql/node_modules/egg/config/config.default.js",
+      "eslint-config-egg": "/Users/jetone/Documents/WorkingPlace/svn/ClientAssistantSys/trunk/restfulApi/lib/plugin/egg-mssql/node_modules/egg/config/config.default.js",
+      "webstorm-disable-index": "/Users/jetone/Documents/WorkingPlace/svn/ClientAssistantSys/trunk/restfulApi/lib/plugin/egg-mssql/node_modules/egg/config/config.default.js"
+    },
+    "engines": {
+      "node": "/Users/jetone/Documents/WorkingPlace/svn/ClientAssistantSys/trunk/restfulApi/lib/plugin/egg-mssql/node_modules/egg/config/config.default.js"
+    },
+    "scripts": {
+      "test": "/Users/jetone/Documents/WorkingPlace/svn/ClientAssistantSys/trunk/restfulApi/lib/plugin/egg-mssql/node_modules/egg/config/config.default.js",
+      "test-local": "/Users/jetone/Documents/WorkingPlace/svn/ClientAssistantSys/trunk/restfulApi/lib/plugin/egg-mssql/node_modules/egg/config/config.default.js",
+      "cov": "/Users/jetone/Documents/WorkingPlace/svn/ClientAssistantSys/trunk/restfulApi/lib/plugin/egg-mssql/node_modules/egg/config/config.default.js",
+      "lint": "/Users/jetone/Documents/WorkingPlace/svn/ClientAssistantSys/trunk/restfulApi/lib/plugin/egg-mssql/node_modules/egg/config/config.default.js",
+      "ci": "/Users/jetone/Documents/WorkingPlace/svn/ClientAssistantSys/trunk/restfulApi/lib/plugin/egg-mssql/node_modules/egg/config/config.default.js",
+      "pkgfiles": "/Users/jetone/Documents/WorkingPlace/svn/ClientAssistantSys/trunk/restfulApi/lib/plugin/egg-mssql/node_modules/egg/config/config.default.js",
+      "autod": "/Users/jetone/Documents/WorkingPlace/svn/ClientAssistantSys/trunk/restfulApi/lib/plugin/egg-mssql/node_modules/egg/config/config.default.js"
+    },
+    "files": "/Users/jetone/Documents/WorkingPlace/svn/ClientAssistantSys/trunk/restfulApi/lib/plugin/egg-mssql/node_modules/egg/config/config.default.js",
+    "ci": {
+      "version": "/Users/jetone/Documents/WorkingPlace/svn/ClientAssistantSys/trunk/restfulApi/lib/plugin/egg-mssql/node_modules/egg/config/config.default.js"
+    },
+    "repository": {
+      "type": "/Users/jetone/Documents/WorkingPlace/svn/ClientAssistantSys/trunk/restfulApi/lib/plugin/egg-mssql/node_modules/egg/config/config.default.js",
+      "url": "/Users/jetone/Documents/WorkingPlace/svn/ClientAssistantSys/trunk/restfulApi/lib/plugin/egg-mssql/node_modules/egg/config/config.default.js"
+    },
+    "bugs": {
+      "url": "/Users/jetone/Documents/WorkingPlace/svn/ClientAssistantSys/trunk/restfulApi/lib/plugin/egg-mssql/node_modules/egg/config/config.default.js"
+    },
+    "homepage": "/Users/jetone/Documents/WorkingPlace/svn/ClientAssistantSys/trunk/restfulApi/lib/plugin/egg-mssql/node_modules/egg/config/config.default.js",
+    "author": "/Users/jetone/Documents/WorkingPlace/svn/ClientAssistantSys/trunk/restfulApi/lib/plugin/egg-mssql/node_modules/egg/config/config.default.js",
+    "license": "/Users/jetone/Documents/WorkingPlace/svn/ClientAssistantSys/trunk/restfulApi/lib/plugin/egg-mssql/node_modules/egg/config/config.default.js"
+  },
+  "baseDir": "/Users/jetone/Documents/WorkingPlace/svn/ClientAssistantSys/trunk/restfulApi/lib/plugin/egg-mssql/node_modules/egg/config/config.default.js",
+  "HOME": "/Users/jetone/Documents/WorkingPlace/svn/ClientAssistantSys/trunk/restfulApi/lib/plugin/egg-mssql/node_modules/egg/config/config.default.js",
+  "rundir": "/Users/jetone/Documents/WorkingPlace/svn/ClientAssistantSys/trunk/restfulApi/lib/plugin/egg-mssql/node_modules/egg/config/config.default.js",
+  "dump": {
+    "ignore": "/Users/jetone/Documents/WorkingPlace/svn/ClientAssistantSys/trunk/restfulApi/lib/plugin/egg-mssql/node_modules/egg/config/config.default.js"
+  },
+  "confusedConfigurations": {
+    "bodyparser": "/Users/jetone/Documents/WorkingPlace/svn/ClientAssistantSys/trunk/restfulApi/lib/plugin/egg-mssql/node_modules/egg/config/config.default.js",
+    "notFound": "/Users/jetone/Documents/WorkingPlace/svn/ClientAssistantSys/trunk/restfulApi/lib/plugin/egg-mssql/node_modules/egg/config/config.default.js",
+    "sitefile": "/Users/jetone/Documents/WorkingPlace/svn/ClientAssistantSys/trunk/restfulApi/lib/plugin/egg-mssql/node_modules/egg/config/config.default.js",
+    "middlewares": "/Users/jetone/Documents/WorkingPlace/svn/ClientAssistantSys/trunk/restfulApi/lib/plugin/egg-mssql/node_modules/egg/config/config.default.js",
+    "httpClient": "/Users/jetone/Documents/WorkingPlace/svn/ClientAssistantSys/trunk/restfulApi/lib/plugin/egg-mssql/node_modules/egg/config/config.default.js"
+  },
+  "notfound": {
+    "pageUrl": "/Users/jetone/Documents/WorkingPlace/svn/ClientAssistantSys/trunk/restfulApi/lib/plugin/egg-mssql/node_modules/egg/config/config.default.js"
+  },
+  "siteFile": {
+    "/favicon.ico": "/Users/jetone/Documents/WorkingPlace/svn/ClientAssistantSys/trunk/restfulApi/lib/plugin/egg-mssql/node_modules/egg/config/config.default.js"
+  },
+  "bodyParser": {
+    "enable": "/Users/jetone/Documents/WorkingPlace/svn/ClientAssistantSys/trunk/restfulApi/lib/plugin/egg-mssql/node_modules/egg/config/config.default.js",
+    "encoding": "/Users/jetone/Documents/WorkingPlace/svn/ClientAssistantSys/trunk/restfulApi/lib/plugin/egg-mssql/node_modules/egg/config/config.default.js",
+    "formLimit": "/Users/jetone/Documents/WorkingPlace/svn/ClientAssistantSys/trunk/restfulApi/lib/plugin/egg-mssql/node_modules/egg/config/config.default.js",
+    "jsonLimit": "/Users/jetone/Documents/WorkingPlace/svn/ClientAssistantSys/trunk/restfulApi/lib/plugin/egg-mssql/node_modules/egg/config/config.default.js",
+    "strict": "/Users/jetone/Documents/WorkingPlace/svn/ClientAssistantSys/trunk/restfulApi/lib/plugin/egg-mssql/node_modules/egg/config/config.default.js",
+    "queryString": {
+      "arrayLimit": "/Users/jetone/Documents/WorkingPlace/svn/ClientAssistantSys/trunk/restfulApi/lib/plugin/egg-mssql/node_modules/egg/config/config.default.js",
+      "depth": "/Users/jetone/Documents/WorkingPlace/svn/ClientAssistantSys/trunk/restfulApi/lib/plugin/egg-mssql/node_modules/egg/config/config.default.js",
+      "parameterLimit": "/Users/jetone/Documents/WorkingPlace/svn/ClientAssistantSys/trunk/restfulApi/lib/plugin/egg-mssql/node_modules/egg/config/config.default.js"
+    }
+  },
+  "logger": {
+    "dir": "/Users/jetone/Documents/WorkingPlace/svn/ClientAssistantSys/trunk/restfulApi/lib/plugin/egg-mssql/node_modules/egg/config/config.default.js",
+    "encoding": "/Users/jetone/Documents/WorkingPlace/svn/ClientAssistantSys/trunk/restfulApi/lib/plugin/egg-mssql/node_modules/egg/config/config.default.js",
+    "env": "/Users/jetone/Documents/WorkingPlace/svn/ClientAssistantSys/trunk/restfulApi/lib/plugin/egg-mssql/node_modules/egg/config/config.default.js",
+    "level": "/Users/jetone/Documents/WorkingPlace/svn/ClientAssistantSys/trunk/restfulApi/lib/plugin/egg-mssql/node_modules/egg/config/config.default.js",
+    "consoleLevel": "/Users/jetone/Documents/WorkingPlace/svn/ClientAssistantSys/trunk/restfulApi/lib/plugin/egg-mssql/node_modules/egg/config/config.unittest.js",
+    "disableConsoleAfterReady": "/Users/jetone/Documents/WorkingPlace/svn/ClientAssistantSys/trunk/restfulApi/lib/plugin/egg-mssql/node_modules/egg/config/config.default.js",
+    "outputJSON": "/Users/jetone/Documents/WorkingPlace/svn/ClientAssistantSys/trunk/restfulApi/lib/plugin/egg-mssql/node_modules/egg/config/config.default.js",
+    "buffer": "/Users/jetone/Documents/WorkingPlace/svn/ClientAssistantSys/trunk/restfulApi/lib/plugin/egg-mssql/node_modules/egg/config/config.unittest.js",
+    "appLogName": "/Users/jetone/Documents/WorkingPlace/svn/ClientAssistantSys/trunk/restfulApi/lib/plugin/egg-mssql/node_modules/egg/config/config.default.js",
+    "coreLogName": "/Users/jetone/Documents/WorkingPlace/svn/ClientAssistantSys/trunk/restfulApi/lib/plugin/egg-mssql/node_modules/egg/config/config.default.js",
+    "agentLogName": "/Users/jetone/Documents/WorkingPlace/svn/ClientAssistantSys/trunk/restfulApi/lib/plugin/egg-mssql/node_modules/egg/config/config.default.js",
+    "errorLogName": "/Users/jetone/Documents/WorkingPlace/svn/ClientAssistantSys/trunk/restfulApi/lib/plugin/egg-mssql/node_modules/egg/config/config.default.js",
+    "coreLogger": "/Users/jetone/Documents/WorkingPlace/svn/ClientAssistantSys/trunk/restfulApi/lib/plugin/egg-mssql/node_modules/egg/config/config.default.js",
+    "allowDebugAtProd": "/Users/jetone/Documents/WorkingPlace/svn/ClientAssistantSys/trunk/restfulApi/lib/plugin/egg-mssql/node_modules/egg/config/config.default.js"
+  },
+  "httpclient": {
+    "enableDNSCache": "/Users/jetone/Documents/WorkingPlace/svn/ClientAssistantSys/trunk/restfulApi/lib/plugin/egg-mssql/node_modules/egg/config/config.default.js",
+    "dnsCacheMaxLength": "/Users/jetone/Documents/WorkingPlace/svn/ClientAssistantSys/trunk/restfulApi/lib/plugin/egg-mssql/node_modules/egg/config/config.default.js",
+    "dnsCacheMaxAge": "/Users/jetone/Documents/WorkingPlace/svn/ClientAssistantSys/trunk/restfulApi/lib/plugin/egg-mssql/node_modules/egg/config/config.default.js",
+    "request": {
+      "timeout": "/Users/jetone/Documents/WorkingPlace/svn/ClientAssistantSys/trunk/restfulApi/lib/plugin/egg-mssql/node_modules/egg/config/config.default.js"
+    },
+    "httpAgent": {
+      "keepAlive": "/Users/jetone/Documents/WorkingPlace/svn/ClientAssistantSys/trunk/restfulApi/lib/plugin/egg-mssql/node_modules/egg/config/config.default.js",
+      "freeSocketKeepAliveTimeout": "/Users/jetone/Documents/WorkingPlace/svn/ClientAssistantSys/trunk/restfulApi/lib/plugin/egg-mssql/node_modules/egg/config/config.default.js",
+      "maxSockets": "/Users/jetone/Documents/WorkingPlace/svn/ClientAssistantSys/trunk/restfulApi/lib/plugin/egg-mssql/node_modules/egg/config/config.default.js",
+      "maxFreeSockets": "/Users/jetone/Documents/WorkingPlace/svn/ClientAssistantSys/trunk/restfulApi/lib/plugin/egg-mssql/node_modules/egg/config/config.default.js"
+    },
+    "httpsAgent": {
+      "keepAlive": "/Users/jetone/Documents/WorkingPlace/svn/ClientAssistantSys/trunk/restfulApi/lib/plugin/egg-mssql/node_modules/egg/config/config.default.js",
+      "freeSocketKeepAliveTimeout": "/Users/jetone/Documents/WorkingPlace/svn/ClientAssistantSys/trunk/restfulApi/lib/plugin/egg-mssql/node_modules/egg/config/config.default.js",
+      "maxSockets": "/Users/jetone/Documents/WorkingPlace/svn/ClientAssistantSys/trunk/restfulApi/lib/plugin/egg-mssql/node_modules/egg/config/config.default.js",
+      "maxFreeSockets": "/Users/jetone/Documents/WorkingPlace/svn/ClientAssistantSys/trunk/restfulApi/lib/plugin/egg-mssql/node_modules/egg/config/config.default.js"
+    }
+  },
+  "meta": {
+    "enable": "/Users/jetone/Documents/WorkingPlace/svn/ClientAssistantSys/trunk/restfulApi/lib/plugin/egg-mssql/node_modules/egg/config/config.default.js",
+    "logging": "/Users/jetone/Documents/WorkingPlace/svn/ClientAssistantSys/trunk/restfulApi/lib/plugin/egg-mssql/node_modules/egg/config/config.default.js"
+  },
+  "coreMiddleware": "/Users/jetone/Documents/WorkingPlace/svn/ClientAssistantSys/trunk/restfulApi/lib/plugin/egg-mssql/node_modules/egg/config/config.default.js",
+  "workerStartTimeout": "/Users/jetone/Documents/WorkingPlace/svn/ClientAssistantSys/trunk/restfulApi/lib/plugin/egg-mssql/node_modules/egg/config/config.default.js",
+  "cluster": {
+    "listen": {
+      "path": "/Users/jetone/Documents/WorkingPlace/svn/ClientAssistantSys/trunk/restfulApi/lib/plugin/egg-mssql/node_modules/egg/config/config.default.js",
+      "port": "/Users/jetone/Documents/WorkingPlace/svn/ClientAssistantSys/trunk/restfulApi/lib/plugin/egg-mssql/node_modules/egg/config/config.default.js",
+      "hostname": "/Users/jetone/Documents/WorkingPlace/svn/ClientAssistantSys/trunk/restfulApi/lib/plugin/egg-mssql/node_modules/egg/config/config.default.js"
+    }
+  },
+  "clusterClient": {
+    "responseTimeout": "/Users/jetone/Documents/WorkingPlace/svn/ClientAssistantSys/trunk/restfulApi/lib/plugin/egg-mssql/node_modules/egg/config/config.default.js"
+  }
+}
