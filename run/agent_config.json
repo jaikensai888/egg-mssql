@@ -71,7 +71,8 @@
     },
     "onerror": {
       "errorPageUrl": "",
-      "appErrorFilter": null
+      "appErrorFilter": null,
+      "templatePath": "/Users/jetone/Documents/WorkingPlace/GitHub/egg-mssql/node_modules/egg-onerror/lib/onerror_page.mustache"
     },
     "i18n": {
       "defaultLocale": "en_US",
@@ -83,8 +84,8 @@
     "watcher": {
       "type": "development",
       "eventSources": {
-        "default": "/Users/jetone/Documents/WorkingPlace/svn/ClientAssistantSys/trunk/restfulApi/lib/plugin/egg-mssql/node_modules/egg-watcher/lib/event-sources/default",
-        "development": "/Users/jetone/Documents/WorkingPlace/svn/ClientAssistantSys/trunk/restfulApi/lib/plugin/egg-mssql/node_modules/egg-watcher/lib/event-sources/development"
+        "default": "/Users/jetone/Documents/WorkingPlace/GitHub/egg-mssql/node_modules/egg-watcher/lib/event-sources/default",
+        "development": "/Users/jetone/Documents/WorkingPlace/GitHub/egg-mssql/node_modules/egg-watcher/lib/event-sources/development"
       }
     },
     "multipart": {
@@ -101,7 +102,7 @@
     "customLogger": {
       "scheduleLogger": {
         "consoleLevel": "NONE",
-        "file": "/Users/jetone/Documents/WorkingPlace/svn/ClientAssistantSys/trunk/restfulApi/lib/plugin/egg-mssql/logs/egg-mssql/egg-schedule.log"
+        "file": "/Users/jetone/Documents/WorkingPlace/GitHub/egg-mssql/logs/jt-egg-mssql/egg-schedule.log"
       }
     },
     "logrotator": {
@@ -115,41 +116,43 @@
     },
     "static": {
       "prefix": "/public/",
-      "dir": "/Users/jetone/Documents/WorkingPlace/svn/ClientAssistantSys/trunk/restfulApi/lib/plugin/egg-mssql/app/public",
+      "dir": "/Users/jetone/Documents/WorkingPlace/GitHub/egg-mssql/app/public",
       "dynamic": true,
       "preload": false,
       "buffer": false,
       "maxFiles": 1000
     },
     "view": {
-      "root": "/Users/jetone/Documents/WorkingPlace/svn/ClientAssistantSys/trunk/restfulApi/lib/plugin/egg-mssql/app/view",
+      "root": "/Users/jetone/Documents/WorkingPlace/GitHub/egg-mssql/app/view",
       "cache": true,
       "defaultExtension": ".html",
       "defaultViewEngine": "",
       "mapping": {}
     },
     "mssql": {
-      "db1": {
-        "user": "rep",
-        "password": "<String len: 10>",
-        "server": "59.39.71.105",
-        "database": "CustomerServiceSys",
-        "port": "14433"
+      "clients": {
+        "db1": {
+          "user": "rep",
+          "password": "<String len: 10>",
+          "server": "59.39.71.105",
+          "database": "CustomerServiceSys",
+          "port": "14433"
+        }
       }
     },
     "env": "unittest",
-    "name": "egg-mssql",
+    "name": "jt-egg-mssql",
     "keys": "<String len: 0>",
     "proxy": false,
     "protocolHeaders": "x-forwarded-proto",
     "ipHeaders": "x-forwarded-for",
     "hostHeaders": "",
     "pkg": {
-      "name": "egg-mssql",
+      "name": "jt-egg-mssql",
       "version": "1.0.0",
       "description": "",
       "eggPlugin": {
-        "name": "mssql"
+        "name": "egg-mssql"
       },
       "keywords": [
         "egg",
@@ -157,7 +160,7 @@
         "egg-plugin"
       ],
       "dependencies": {
-        "mssql": "^4.1.0"
+        "jt-mssql": "^1.0.1"
       },
       "devDependencies": {
         "autod": "^3.0.0",
@@ -175,12 +178,14 @@
       },
       "scripts": {
         "test": "npm run lint -- --fix && egg-bin pkgfiles && npm run test-local",
-        "test-local": "egg-bin test",
+        "test-local": "egg-bin test --full-trace",
         "cov": "egg-bin cov",
         "lint": "eslint .",
         "ci": "egg-bin pkgfiles --check && npm run lint && npm run cov",
         "pkgfiles": "egg-bin pkgfiles",
-        "autod": "autod"
+        "autod": "autod",
+        "reset": "npm config set registry http://registry.npmjs.org",
+        "china": "npm config set registry https://registry.npm.taobao.org --global && npm config set disturl https://npm.taobao.org/dist --global"
       },
       "files": [
         "config",
@@ -192,18 +197,18 @@
       },
       "repository": {
         "type": "git",
-        "url": "git+https://github.com/eggjs/egg-mssql.git"
+        "url": "https://github.com/jaikensai888/egg-mssql.git"
       },
       "bugs": {
-        "url": "https://github.com/eggjs/egg/issues"
+        "url": "https://github.com/jaikensai888/egg-mssql/issues"
       },
-      "homepage": "https://github.com/eggjs/egg-mssql#readme",
+      "homepage": "https://github.com/jaikensai888/egg-mssql",
       "author": "tao",
       "license": "MIT"
     },
-    "baseDir": "/Users/jetone/Documents/WorkingPlace/svn/ClientAssistantSys/trunk/restfulApi/lib/plugin/egg-mssql",
+    "baseDir": "/Users/jetone/Documents/WorkingPlace/GitHub/egg-mssql",
     "HOME": "/Users/jetone",
-    "rundir": "/Users/jetone/Documents/WorkingPlace/svn/ClientAssistantSys/trunk/restfulApi/lib/plugin/egg-mssql/run",
+    "rundir": "/Users/jetone/Documents/WorkingPlace/GitHub/egg-mssql/run",
     "dump": {
       "ignore": "<Set>"
     },
@@ -233,7 +238,7 @@
       }
     },
     "logger": {
-      "dir": "/Users/jetone/Documents/WorkingPlace/svn/ClientAssistantSys/trunk/restfulApi/lib/plugin/egg-mssql/logs/egg-mssql",
+      "dir": "/Users/jetone/Documents/WorkingPlace/GitHub/egg-mssql/logs/jt-egg-mssql",
       "encoding": "utf8",
       "env": "unittest",
       "level": "INFO",
@@ -241,12 +246,12 @@
       "disableConsoleAfterReady": false,
       "outputJSON": false,
       "buffer": false,
-      "appLogName": "egg-mssql-web.log",
+      "appLogName": "jt-egg-mssql-web.log",
       "coreLogName": "egg-web.log",
       "agentLogName": "egg-agent.log",
       "errorLogName": "common-error.log",
       "coreLogger": {},
-      "allowDebugAtProd": true,
+      "allowDebugAtProd": false,
       "type": "agent"
     },
     "httpclient": {
@@ -289,17 +294,13 @@
       }
     },
     "clusterClient": {
+      "maxWaitTime": 60000,
       "responseTimeout": 60000
     },
-    "coreMiddlewares": [
-      "meta",
-      "siteFile",
-      "notfound",
-      "bodyParser",
-      "overrideMethod"
-    ],
+    "onClientError": null,
+    "coreMiddlewares": "~config~coreMiddleware",
     "appMiddlewares": [],
-    "appMiddleware": []
+    "appMiddleware": "~config~appMiddlewares"
   },
   "plugins": {
     "session": {
@@ -309,8 +310,8 @@
       "dependencies": [],
       "optionalDependencies": [],
       "env": [],
-      "from": "/Users/jetone/Documents/WorkingPlace/svn/ClientAssistantSys/trunk/restfulApi/lib/plugin/egg-mssql/node_modules/egg/config/plugin.js",
-      "path": "/Users/jetone/Documents/WorkingPlace/svn/ClientAssistantSys/trunk/restfulApi/lib/plugin/egg-mssql/node_modules/egg-session",
+      "from": "/Users/jetone/Documents/WorkingPlace/GitHub/egg-mssql/node_modules/egg/config/plugin.js",
+      "path": "/Users/jetone/Documents/WorkingPlace/GitHub/egg-mssql/node_modules/egg-session",
       "version": "3.1.0"
     },
     "security": {
@@ -322,8 +323,8 @@
         "session"
       ],
       "env": [],
-      "from": "/Users/jetone/Documents/WorkingPlace/svn/ClientAssistantSys/trunk/restfulApi/lib/plugin/egg-mssql/node_modules/egg/config/plugin.js",
-      "path": "/Users/jetone/Documents/WorkingPlace/svn/ClientAssistantSys/trunk/restfulApi/lib/plugin/egg-mssql/node_modules/egg-security",
+      "from": "/Users/jetone/Documents/WorkingPlace/GitHub/egg-mssql/node_modules/egg/config/plugin.js",
+      "path": "/Users/jetone/Documents/WorkingPlace/GitHub/egg-mssql/node_modules/egg-security",
       "version": "2.2.2"
     },
     "jsonp": {
@@ -335,8 +336,8 @@
         "security"
       ],
       "env": [],
-      "from": "/Users/jetone/Documents/WorkingPlace/svn/ClientAssistantSys/trunk/restfulApi/lib/plugin/egg-mssql/node_modules/egg/config/plugin.js",
-      "path": "/Users/jetone/Documents/WorkingPlace/svn/ClientAssistantSys/trunk/restfulApi/lib/plugin/egg-mssql/node_modules/egg-jsonp",
+      "from": "/Users/jetone/Documents/WorkingPlace/GitHub/egg-mssql/node_modules/egg/config/plugin.js",
+      "path": "/Users/jetone/Documents/WorkingPlace/GitHub/egg-mssql/node_modules/egg-jsonp",
       "version": "2.0.0"
     },
     "onerror": {
@@ -348,9 +349,9 @@
         "jsonp"
       ],
       "env": [],
-      "from": "/Users/jetone/Documents/WorkingPlace/svn/ClientAssistantSys/trunk/restfulApi/lib/plugin/egg-mssql/node_modules/egg/config/plugin.js",
-      "path": "/Users/jetone/Documents/WorkingPlace/svn/ClientAssistantSys/trunk/restfulApi/lib/plugin/egg-mssql/node_modules/egg-onerror",
-      "version": "2.0.0"
+      "from": "/Users/jetone/Documents/WorkingPlace/GitHub/egg-mssql/node_modules/egg/config/plugin.js",
+      "path": "/Users/jetone/Documents/WorkingPlace/GitHub/egg-mssql/node_modules/egg-onerror",
+      "version": "2.1.0"
     },
     "i18n": {
       "enable": true,
@@ -359,8 +360,8 @@
       "dependencies": [],
       "optionalDependencies": [],
       "env": [],
-      "from": "/Users/jetone/Documents/WorkingPlace/svn/ClientAssistantSys/trunk/restfulApi/lib/plugin/egg-mssql/node_modules/egg/config/plugin.js",
-      "path": "/Users/jetone/Documents/WorkingPlace/svn/ClientAssistantSys/trunk/restfulApi/lib/plugin/egg-mssql/node_modules/egg-i18n",
+      "from": "/Users/jetone/Documents/WorkingPlace/GitHub/egg-mssql/node_modules/egg/config/plugin.js",
+      "path": "/Users/jetone/Documents/WorkingPlace/GitHub/egg-mssql/node_modules/egg-i18n",
       "version": "2.0.0"
     },
     "watcher": {
@@ -370,8 +371,8 @@
       "dependencies": [],
       "optionalDependencies": [],
       "env": [],
-      "from": "/Users/jetone/Documents/WorkingPlace/svn/ClientAssistantSys/trunk/restfulApi/lib/plugin/egg-mssql/node_modules/egg/config/plugin.js",
-      "path": "/Users/jetone/Documents/WorkingPlace/svn/ClientAssistantSys/trunk/restfulApi/lib/plugin/egg-mssql/node_modules/egg-watcher",
+      "from": "/Users/jetone/Documents/WorkingPlace/GitHub/egg-mssql/node_modules/egg/config/plugin.js",
+      "path": "/Users/jetone/Documents/WorkingPlace/GitHub/egg-mssql/node_modules/egg-watcher",
       "version": "3.0.0"
     },
     "multipart": {
@@ -381,8 +382,8 @@
       "dependencies": [],
       "optionalDependencies": [],
       "env": [],
-      "from": "/Users/jetone/Documents/WorkingPlace/svn/ClientAssistantSys/trunk/restfulApi/lib/plugin/egg-mssql/node_modules/egg/config/plugin.js",
-      "path": "/Users/jetone/Documents/WorkingPlace/svn/ClientAssistantSys/trunk/restfulApi/lib/plugin/egg-mssql/node_modules/egg-multipart",
+      "from": "/Users/jetone/Documents/WorkingPlace/GitHub/egg-mssql/node_modules/egg/config/plugin.js",
+      "path": "/Users/jetone/Documents/WorkingPlace/GitHub/egg-mssql/node_modules/egg-multipart",
       "version": "2.0.0"
     },
     "schedule": {
@@ -392,8 +393,8 @@
       "dependencies": [],
       "optionalDependencies": [],
       "env": [],
-      "from": "/Users/jetone/Documents/WorkingPlace/svn/ClientAssistantSys/trunk/restfulApi/lib/plugin/egg-mssql/node_modules/egg/config/plugin.js",
-      "path": "/Users/jetone/Documents/WorkingPlace/svn/ClientAssistantSys/trunk/restfulApi/lib/plugin/egg-mssql/node_modules/egg-schedule",
+      "from": "/Users/jetone/Documents/WorkingPlace/GitHub/egg-mssql/node_modules/egg/config/plugin.js",
+      "path": "/Users/jetone/Documents/WorkingPlace/GitHub/egg-mssql/node_modules/egg-schedule",
       "version": "3.3.0"
     },
     "logrotator": {
@@ -405,8 +406,8 @@
       ],
       "optionalDependencies": [],
       "env": [],
-      "from": "/Users/jetone/Documents/WorkingPlace/svn/ClientAssistantSys/trunk/restfulApi/lib/plugin/egg-mssql/node_modules/egg/config/plugin.js",
-      "path": "/Users/jetone/Documents/WorkingPlace/svn/ClientAssistantSys/trunk/restfulApi/lib/plugin/egg-mssql/node_modules/egg-logrotator",
+      "from": "/Users/jetone/Documents/WorkingPlace/GitHub/egg-mssql/node_modules/egg/config/plugin.js",
+      "path": "/Users/jetone/Documents/WorkingPlace/GitHub/egg-mssql/node_modules/egg-logrotator",
       "version": "3.0.3"
     },
     "static": {
@@ -416,9 +417,9 @@
       "dependencies": [],
       "optionalDependencies": [],
       "env": [],
-      "from": "/Users/jetone/Documents/WorkingPlace/svn/ClientAssistantSys/trunk/restfulApi/lib/plugin/egg-mssql/node_modules/egg/config/plugin.js",
-      "path": "/Users/jetone/Documents/WorkingPlace/svn/ClientAssistantSys/trunk/restfulApi/lib/plugin/egg-mssql/node_modules/egg-static",
-      "version": "2.1.0"
+      "from": "/Users/jetone/Documents/WorkingPlace/GitHub/egg-mssql/node_modules/egg/config/plugin.js",
+      "path": "/Users/jetone/Documents/WorkingPlace/GitHub/egg-mssql/node_modules/egg-static",
+      "version": "2.1.1"
     },
     "view": {
       "enable": true,
@@ -427,23 +428,23 @@
       "dependencies": [],
       "optionalDependencies": [],
       "env": [],
-      "from": "/Users/jetone/Documents/WorkingPlace/svn/ClientAssistantSys/trunk/restfulApi/lib/plugin/egg-mssql/node_modules/egg/config/plugin.js",
-      "path": "/Users/jetone/Documents/WorkingPlace/svn/ClientAssistantSys/trunk/restfulApi/lib/plugin/egg-mssql/node_modules/egg-view",
+      "from": "/Users/jetone/Documents/WorkingPlace/GitHub/egg-mssql/node_modules/egg/config/plugin.js",
+      "path": "/Users/jetone/Documents/WorkingPlace/GitHub/egg-mssql/node_modules/egg-view",
       "version": "2.1.0"
     },
     "egg-mock": {
       "enable": true,
-      "path": "/Users/jetone/Documents/WorkingPlace/svn/ClientAssistantSys/trunk/restfulApi/lib/plugin/egg-mssql/node_modules/egg-mock",
+      "path": "/Users/jetone/Documents/WorkingPlace/GitHub/egg-mssql/node_modules/egg-mock",
       "name": "egg-mock",
       "dependencies": [],
       "optionalDependencies": [],
       "env": [],
       "version": "3.17.0"
     },
-    "mssql": {
+    "egg-mssql": {
       "enable": true,
-      "path": "/Users/jetone/Documents/WorkingPlace/svn/ClientAssistantSys/trunk/restfulApi/lib/plugin/egg-mssql",
-      "name": "mssql",
+      "path": "/Users/jetone/Documents/WorkingPlace/GitHub/egg-mssql",
+      "name": "egg-mssql",
       "dependencies": [],
       "optionalDependencies": [],
       "env": [],
