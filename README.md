@@ -4,13 +4,13 @@
 
 Mssql Plugin for Egg FrameWork
 
----
+
 
 ## version
 
 ver1.0.1
 
----
+
 
 ## Install
 
@@ -18,7 +18,7 @@ ver1.0.1
 $ npm i jt-egg-mssql --save
 ```
 
----
+
 
 ## Usage
 
