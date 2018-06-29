@@ -1,8 +1,16 @@
 # egg-mssql
 
-<!--
-Description here.
--->
+## Description
+
+Mssql Plugin for Egg FrameWork
+
+---
+
+## version
+
+ver1.0.1
+
+---
 
 ## Install
 
@@ -10,7 +18,11 @@ Description here.
 $ npm i jt-egg-mssql --save
 ```
 
+---
+
 ## Usage
+
+### Configuration
 
 ```js
 // {app_root}/config/plugin.js
@@ -23,7 +35,11 @@ exports.mssql = {
 
 see [config/config.default.js](config/config.default.js) for more detail.
 
+---
+
 ## Example
+
+## Connection
 
 <!-- example here -->
 
@@ -86,6 +102,46 @@ class UserService extends Service {
 }
 
 module.exports = UserService;
+```
+
+---
+
+## QueryExtension
+
+- jt-mssql - Plugin Already Extension by [jt-mssql](https://github.com/jaikensai888/node-mssql) package
+
+```js
+it("asyn transaction test", async () => {
+  const pool = await app.mssql.get("db1");
+  const transaction = pool.transaction();
+  await transaction.asyncBegin(async err => {
+    try {
+      const result = await transaction
+        .request()
+        .asyncQuery(
+          `insert into myTable2 (TemplateId) values(@TemplateId) ; select SCOPE_IDENTITY() as id`,
+          {
+            Templateid: 1
+          }
+        );
+      console.log(result.recordset[0].id);
+      assert(result.recordset[0].id !== undefined);
+      const result2 = await transaction
+        .request()
+        .asyncQuery(
+          `insert into myTable (TemplateName) values(@TemplateName) ; select SCOPE_IDENTITY() as id`,
+          {
+            TemplateName: "abc"
+          }
+        );
+      assert(result2.recordset[0].id !== undefined);
+      transaction.commit();
+    } catch (error) {
+      console.log(error);
+      transaction.rollback();
+    }
+  });
+});
 ```
 
 ## Questions & Suggestions

@@ -12,33 +12,33 @@ const {
 const sql = require('jt-mssql');
 
 describe("test/mssql.test.js", () => {
-  // it("singletonDb Test", async () => {
-  //   const pool = await app.mssql.get('db1');
-  //   const result = await pool.request().query("select 1 as a");
-  //   assert(result.recordset[0].a == 1);
-  // });
-  // it("multipleDb  Test", async () => {
-  //   const pool = await app.mssql.get('db1');
-  //   const result = await pool.request().query("select 1 as a");
-  //   assert(result.recordset[0].a == 1);
-  //   const pool2 = await app.mssql.get('db1');
-  //   const result2 = await pool2.request().query("select 2 as a");
-  //   assert(result2.recordset[0].a == 2);
-  // });
-  // it("asyncQuery Test", async () => {
-  //   const pool = await app.mssql.get('db1');
-  //   const result = await pool.request().asyncQuery("select TemplateId from myTable2 where id=@id", {
-  //     id: 1
-  //   });
-  //   assert(result.recordset[0].TemplateId == 1);
-  // });
-  // it("asyncInsert Test", async () => {
-  //   const pool = await app.mssql.get('db1');
-  //   const result = await pool.request().asyncInsert(`insert into myTable2 (TemplateId) values(@TemplateId) ; select SCOPE_IDENTITY() as id`, [{
-  //     Templateid: 1
-  //   }]);
-  //   assert(result.recordset[0].id !== undefined);
-  // });
+  it("singletonDb Test", async () => {
+    const pool = await app.mssql.get('db1');
+    const result = await pool.request().query("select 1 as a");
+    assert(result.recordset[0].a == 1);
+  });
+  it("multipleDb  Test", async () => {
+    const pool = await app.mssql.get('db1');
+    const result = await pool.request().query("select 1 as a");
+    assert(result.recordset[0].a == 1);
+    const pool2 = await app.mssql.get('db1');
+    const result2 = await pool2.request().query("select 2 as a");
+    assert(result2.recordset[0].a == 2);
+  });
+  it("asyncQuery Test", async () => {
+    const pool = await app.mssql.get('db1');
+    const result = await pool.request().asyncQuery("select TemplateId from myTable2 where id=@id", {
+      id: 1
+    });
+    assert(result.recordset[0].TemplateId == 1);
+  });
+  it("asyncInsert Test", async () => {
+    const pool = await app.mssql.get('db1');
+    const result = await pool.request().asyncInsert(`insert into myTable2 (TemplateId) values(@TemplateId) ; select SCOPE_IDENTITY() as id`, [{
+      Templateid: 1
+    }]);
+    assert(result.recordset[0].id !== undefined);
+  });
 
   it("asyn transaction test", async () => {
     const pool = await app.mssql.get('db1');
