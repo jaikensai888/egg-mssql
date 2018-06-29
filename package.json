@@ -1,6 +1,6 @@
 {
   "name": "jt-egg-mssql",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "",
   "eggPlugin": {
     "name": "egg-mssql"
@@ -11,7 +11,7 @@
     "egg-plugin"
   ],
   "dependencies": {
-    "jt-mssql": "^1.0.1"
+    "jt-mssql": "^1.0.2"
   },
   "devDependencies": {
     "autod": "^3.0.0",
@@ -20,7 +20,7 @@
     "egg-bin": "^4.3.0",
     "egg-ci": "^1.8.0",
     "egg-mock": "^3.13.0",
-    "eslint": "^4.11.0",
+    "eslint": "^4.19.1",
     "eslint-config-egg": "^5.1.0",
     "webstorm-disable-index": "^1.2.0"
   },
