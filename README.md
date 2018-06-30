@@ -79,29 +79,60 @@ clients: {
   },
 },
 // {app_root}/service/user.js
-"use strict";
-const mssql = require("mssql");
-const Service = require("egg").Service;
-class UserService extends Service {
-  async get() {
-    // use db1
-    const request = new mssql.Request(await this.app.mssql.get("db1"));
-    const rows = await request.query(
-      "SELECT name FROM sysobjects where xtype = 'U';"
-    );
 
-    // use db2
-    const request1 = new mssql.Request(await this.app.mssql.get("db2"));
-    const rows1 = await request1.query(
-      "SELECT name FROM sysobjects where xtype = 'U';"
-    );
-    console.log(rows, rows1);
 
-    return "6";
-  }
-}
 
-module.exports = UserService;
+describe("test/mssql.test.js", () => {
+  it("singletonDb Test", async () => {
+    const pool = await app.mssql.get('db1');
+    const result = await pool.request().query("select 1 as a");
+    assert(result.recordset[0].a == 1);
+  });
+  it("multipleDb  Test", async () => {
+    const pool = await app.mssql.get('db1');
+    const result = await pool.request().query("select 1 as a");
+    assert(result.recordset[0].a == 1);
+    const pool2 = await app.mssql.get('db1');
+    const result2 = await pool2.request().query("select 2 as a");
+    assert(result2.recordset[0].a == 2);
+  });
+  it("asyncQuery Test", async () => {
+    const pool = await app.mssql.get('db1');
+    const result = await pool.request().asyncQuery("select TemplateId from myTable2 where id=@id", {
+      id: 1
+    });
+    assert(result.recordset[0].TemplateId == 1);
+  });
+  it("asyncInsert Test", async () => {
+    const pool = await app.mssql.get('db1');
+    const result = await pool.request().asyncInsert(`insert into myTable2 (TemplateId) values(@TemplateId) ; select SCOPE_IDENTITY() as id`, [{
+      Templateid: 1
+    }]);
+    assert(result.recordset[0].id !== undefined);
+  });
+
+  it("asyn transaction test", async () => {
+    const pool = await app.mssql.get('db1');
+    const transaction = pool.transaction();
+    await transaction.asyncBegin(async err => {
+      try {
+        const result = await transaction.request().asyncQuery(`insert into myTable2 (TemplateId) values(@TemplateId) ; select SCOPE_IDENTITY() as id`, {
+          Templateid: 1
+        });
+        console.log(result.recordset[0].id);
+        assert(result.recordset[0].id !== undefined);
+        const result2 = await transaction.request().asyncQuery(`insert into myTable (TemplateName) values(@TemplateName) ; select SCOPE_IDENTITY() as id`, {
+          TemplateName: "abc"
+        });
+        assert(result2.recordset[0].id !== undefined);
+        transaction.commit()
+      } catch (error) {
+        console.log(error);
+        transaction.rollback();
+      }
+    });
+  })
+});
 ```
 
 ---
