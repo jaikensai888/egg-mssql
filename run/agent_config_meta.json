@@ -2,281 +2,281 @@
   "mssql": {
     "clients": {
       "db1": {
-        "user": "e:\\Project\\Gtihub\\egg-mssql\\config\\config.default.js",
-        "password": "e:\\Project\\Gtihub\\egg-mssql\\config\\config.default.js",
-        "server": "e:\\Project\\Gtihub\\egg-mssql\\config\\config.default.js",
-        "database": "e:\\Project\\Gtihub\\egg-mssql\\config\\config.default.js",
-        "port": "e:\\Project\\Gtihub\\egg-mssql\\config\\config.default.js"
+        "user": "/Users/jetone/Documents/WorkingPlace/GitHub/egg-mssql/config/config.default.js",
+        "password": "/Users/jetone/Documents/WorkingPlace/GitHub/egg-mssql/config/config.default.js",
+        "server": "/Users/jetone/Documents/WorkingPlace/GitHub/egg-mssql/config/config.default.js",
+        "database": "/Users/jetone/Documents/WorkingPlace/GitHub/egg-mssql/config/config.default.js",
+        "port": "/Users/jetone/Documents/WorkingPlace/GitHub/egg-mssql/config/config.default.js"
       }
     }
   },
   "session": {
-    "maxAge": "e:\\Project\\Gtihub\\egg-mssql\\node_modules\\egg-session\\config\\config.default.js",
-    "key": "e:\\Project\\Gtihub\\egg-mssql\\node_modules\\egg-session\\config\\config.default.js",
-    "httpOnly": "e:\\Project\\Gtihub\\egg-mssql\\node_modules\\egg-session\\config\\config.default.js",
-    "encrypt": "e:\\Project\\Gtihub\\egg-mssql\\node_modules\\egg-session\\config\\config.default.js"
+    "maxAge": "/Users/jetone/Documents/WorkingPlace/GitHub/egg-mssql/node_modules/egg-session/config/config.default.js",
+    "key": "/Users/jetone/Documents/WorkingPlace/GitHub/egg-mssql/node_modules/egg-session/config/config.default.js",
+    "httpOnly": "/Users/jetone/Documents/WorkingPlace/GitHub/egg-mssql/node_modules/egg-session/config/config.default.js",
+    "encrypt": "/Users/jetone/Documents/WorkingPlace/GitHub/egg-mssql/node_modules/egg-session/config/config.default.js"
   },
   "security": {
-    "domainWhiteList": "e:\\Project\\Gtihub\\egg-mssql\\node_modules\\egg-security\\config\\config.default.js",
-    "protocolWhiteList": "e:\\Project\\Gtihub\\egg-mssql\\node_modules\\egg-security\\config\\config.default.js",
-    "defaultMiddleware": "e:\\Project\\Gtihub\\egg-mssql\\node_modules\\egg-security\\config\\config.default.js",
+    "domainWhiteList": "/Users/jetone/Documents/WorkingPlace/GitHub/egg-mssql/node_modules/egg-security/config/config.default.js",
+    "protocolWhiteList": "/Users/jetone/Documents/WorkingPlace/GitHub/egg-mssql/node_modules/egg-security/config/config.default.js",
+    "defaultMiddleware": "/Users/jetone/Documents/WorkingPlace/GitHub/egg-mssql/node_modules/egg-security/config/config.default.js",
     "csrf": {
-      "enable": "e:\\Project\\Gtihub\\egg-mssql\\node_modules\\egg-security\\config\\config.default.js",
-      "useSession": "e:\\Project\\Gtihub\\egg-mssql\\node_modules\\egg-security\\config\\config.default.js",
-      "ignoreJSON": "e:\\Project\\Gtihub\\egg-mssql\\node_modules\\egg-security\\config\\config.default.js",
-      "cookieName": "e:\\Project\\Gtihub\\egg-mssql\\node_modules\\egg-security\\config\\config.default.js",
-      "sessionName": "e:\\Project\\Gtihub\\egg-mssql\\node_modules\\egg-security\\config\\config.default.js",
-      "headerName": "e:\\Project\\Gtihub\\egg-mssql\\node_modules\\egg-security\\config\\config.default.js",
-      "bodyName": "e:\\Project\\Gtihub\\egg-mssql\\node_modules\\egg-security\\config\\config.default.js",
-      "queryName": "e:\\Project\\Gtihub\\egg-mssql\\node_modules\\egg-security\\config\\config.default.js"
+      "enable": "/Users/jetone/Documents/WorkingPlace/GitHub/egg-mssql/node_modules/egg-security/config/config.default.js",
+      "useSession": "/Users/jetone/Documents/WorkingPlace/GitHub/egg-mssql/node_modules/egg-security/config/config.default.js",
+      "ignoreJSON": "/Users/jetone/Documents/WorkingPlace/GitHub/egg-mssql/node_modules/egg-security/config/config.default.js",
+      "cookieName": "/Users/jetone/Documents/WorkingPlace/GitHub/egg-mssql/node_modules/egg-security/config/config.default.js",
+      "sessionName": "/Users/jetone/Documents/WorkingPlace/GitHub/egg-mssql/node_modules/egg-security/config/config.default.js",
+      "headerName": "/Users/jetone/Documents/WorkingPlace/GitHub/egg-mssql/node_modules/egg-security/config/config.default.js",
+      "bodyName": "/Users/jetone/Documents/WorkingPlace/GitHub/egg-mssql/node_modules/egg-security/config/config.default.js",
+      "queryName": "/Users/jetone/Documents/WorkingPlace/GitHub/egg-mssql/node_modules/egg-security/config/config.default.js"
     },
     "xframe": {
-      "enable": "e:\\Project\\Gtihub\\egg-mssql\\node_modules\\egg-security\\config\\config.default.js",
-      "value": "e:\\Project\\Gtihub\\egg-mssql\\node_modules\\egg-security\\config\\config.default.js"
+      "enable": "/Users/jetone/Documents/WorkingPlace/GitHub/egg-mssql/node_modules/egg-security/config/config.default.js",
+      "value": "/Users/jetone/Documents/WorkingPlace/GitHub/egg-mssql/node_modules/egg-security/config/config.default.js"
     },
     "hsts": {
-      "enable": "e:\\Project\\Gtihub\\egg-mssql\\node_modules\\egg-security\\config\\config.default.js",
-      "maxAge": "e:\\Project\\Gtihub\\egg-mssql\\node_modules\\egg-security\\config\\config.default.js",
-      "includeSubdomains": "e:\\Project\\Gtihub\\egg-mssql\\node_modules\\egg-security\\config\\config.default.js"
+      "enable": "/Users/jetone/Documents/WorkingPlace/GitHub/egg-mssql/node_modules/egg-security/config/config.default.js",
+      "maxAge": "/Users/jetone/Documents/WorkingPlace/GitHub/egg-mssql/node_modules/egg-security/config/config.default.js",
+      "includeSubdomains": "/Users/jetone/Documents/WorkingPlace/GitHub/egg-mssql/node_modules/egg-security/config/config.default.js"
     },
     "dta": {
-      "enable": "e:\\Project\\Gtihub\\egg-mssql\\node_modules\\egg-security\\config\\config.default.js"
+      "enable": "/Users/jetone/Documents/WorkingPlace/GitHub/egg-mssql/node_modules/egg-security/config/config.default.js"
     },
     "methodnoallow": {
-      "enable": "e:\\Project\\Gtihub\\egg-mssql\\node_modules\\egg-security\\config\\config.default.js"
+      "enable": "/Users/jetone/Documents/WorkingPlace/GitHub/egg-mssql/node_modules/egg-security/config/config.default.js"
     },
     "noopen": {
-      "enable": "e:\\Project\\Gtihub\\egg-mssql\\node_modules\\egg-security\\config\\config.default.js"
+      "enable": "/Users/jetone/Documents/WorkingPlace/GitHub/egg-mssql/node_modules/egg-security/config/config.default.js"
     },
     "nosniff": {
-      "enable": "e:\\Project\\Gtihub\\egg-mssql\\node_modules\\egg-security\\config\\config.default.js"
+      "enable": "/Users/jetone/Documents/WorkingPlace/GitHub/egg-mssql/node_modules/egg-security/config/config.default.js"
     },
     "referrerPolicy": {
-      "enable": "e:\\Project\\Gtihub\\egg-mssql\\node_modules\\egg-security\\config\\config.default.js",
-      "value": "e:\\Project\\Gtihub\\egg-mssql\\node_modules\\egg-security\\config\\config.default.js"
+      "enable": "/Users/jetone/Documents/WorkingPlace/GitHub/egg-mssql/node_modules/egg-security/config/config.default.js",
+      "value": "/Users/jetone/Documents/WorkingPlace/GitHub/egg-mssql/node_modules/egg-security/config/config.default.js"
     },
     "xssProtection": {
-      "enable": "e:\\Project\\Gtihub\\egg-mssql\\node_modules\\egg-security\\config\\config.default.js",
-      "value": "e:\\Project\\Gtihub\\egg-mssql\\node_modules\\egg-security\\config\\config.default.js"
+      "enable": "/Users/jetone/Documents/WorkingPlace/GitHub/egg-mssql/node_modules/egg-security/config/config.default.js",
+      "value": "/Users/jetone/Documents/WorkingPlace/GitHub/egg-mssql/node_modules/egg-security/config/config.default.js"
     },
     "csp": {
-      "enable": "e:\\Project\\Gtihub\\egg-mssql\\node_modules\\egg-security\\config\\config.default.js",
-      "policy": "e:\\Project\\Gtihub\\egg-mssql\\node_modules\\egg-security\\config\\config.default.js"
+      "enable": "/Users/jetone/Documents/WorkingPlace/GitHub/egg-mssql/node_modules/egg-security/config/config.default.js",
+      "policy": "/Users/jetone/Documents/WorkingPlace/GitHub/egg-mssql/node_modules/egg-security/config/config.default.js"
     },
     "ssrf": {
-      "ipBlackList": "e:\\Project\\Gtihub\\egg-mssql\\node_modules\\egg-security\\config\\config.default.js",
-      "checkAddress": "e:\\Project\\Gtihub\\egg-mssql\\node_modules\\egg-security\\config\\config.default.js"
+      "ipBlackList": "/Users/jetone/Documents/WorkingPlace/GitHub/egg-mssql/node_modules/egg-security/config/config.default.js",
+      "checkAddress": "/Users/jetone/Documents/WorkingPlace/GitHub/egg-mssql/node_modules/egg-security/config/config.default.js"
     }
   },
   "helper": {
-    "shtml": "e:\\Project\\Gtihub\\egg-mssql\\node_modules\\egg-security\\config\\config.default.js"
+    "shtml": "/Users/jetone/Documents/WorkingPlace/GitHub/egg-mssql/node_modules/egg-security/config/config.default.js"
   },
   "jsonp": {
-    "limit": "e:\\Project\\Gtihub\\egg-mssql\\node_modules\\egg-jsonp\\config\\config.default.js",
-    "callback": "e:\\Project\\Gtihub\\egg-mssql\\node_modules\\egg-jsonp\\config\\config.default.js",
-    "csrf": "e:\\Project\\Gtihub\\egg-mssql\\node_modules\\egg-jsonp\\config\\config.default.js"
+    "limit": "/Users/jetone/Documents/WorkingPlace/GitHub/egg-mssql/node_modules/egg-jsonp/config/config.default.js",
+    "callback": "/Users/jetone/Documents/WorkingPlace/GitHub/egg-mssql/node_modules/egg-jsonp/config/config.default.js",
+    "csrf": "/Users/jetone/Documents/WorkingPlace/GitHub/egg-mssql/node_modules/egg-jsonp/config/config.default.js"
   },
   "onerror": {
-    "errorPageUrl": "e:\\Project\\Gtihub\\egg-mssql\\node_modules\\egg-onerror\\config\\config.default.js",
-    "appErrorFilter": "e:\\Project\\Gtihub\\egg-mssql\\node_modules\\egg-onerror\\config\\config.default.js",
-    "templatePath": "e:\\Project\\Gtihub\\egg-mssql\\node_modules\\egg-onerror\\config\\config.default.js"
+    "errorPageUrl": "/Users/jetone/Documents/WorkingPlace/GitHub/egg-mssql/node_modules/egg-onerror/config/config.default.js",
+    "appErrorFilter": "/Users/jetone/Documents/WorkingPlace/GitHub/egg-mssql/node_modules/egg-onerror/config/config.default.js",
+    "templatePath": "/Users/jetone/Documents/WorkingPlace/GitHub/egg-mssql/node_modules/egg-onerror/config/config.default.js"
   },
   "i18n": {
-    "defaultLocale": "e:\\Project\\Gtihub\\egg-mssql\\node_modules\\egg-i18n\\config\\config.default.js",
-    "dirs": "e:\\Project\\Gtihub\\egg-mssql\\node_modules\\egg-i18n\\config\\config.default.js",
-    "queryField": "e:\\Project\\Gtihub\\egg-mssql\\node_modules\\egg-i18n\\config\\config.default.js",
-    "cookieField": "e:\\Project\\Gtihub\\egg-mssql\\node_modules\\egg-i18n\\config\\config.default.js",
-    "cookieMaxAge": "e:\\Project\\Gtihub\\egg-mssql\\node_modules\\egg-i18n\\config\\config.default.js"
+    "defaultLocale": "/Users/jetone/Documents/WorkingPlace/GitHub/egg-mssql/node_modules/egg-i18n/config/config.default.js",
+    "dirs": "/Users/jetone/Documents/WorkingPlace/GitHub/egg-mssql/node_modules/egg-i18n/config/config.default.js",
+    "queryField": "/Users/jetone/Documents/WorkingPlace/GitHub/egg-mssql/node_modules/egg-i18n/config/config.default.js",
+    "cookieField": "/Users/jetone/Documents/WorkingPlace/GitHub/egg-mssql/node_modules/egg-i18n/config/config.default.js",
+    "cookieMaxAge": "/Users/jetone/Documents/WorkingPlace/GitHub/egg-mssql/node_modules/egg-i18n/config/config.default.js"
   },
   "watcher": {
-    "type": "e:\\Project\\Gtihub\\egg-mssql\\node_modules\\egg-watcher\\config\\config.unittest.js",
+    "type": "/Users/jetone/Documents/WorkingPlace/GitHub/egg-mssql/node_modules/egg-watcher/config/config.unittest.js",
     "eventSources": {
-      "default": "e:\\Project\\Gtihub\\egg-mssql\\node_modules\\egg-watcher\\config\\config.default.js",
-      "development": "e:\\Project\\Gtihub\\egg-mssql\\node_modules\\egg-watcher\\config\\config.default.js"
+      "default": "/Users/jetone/Documents/WorkingPlace/GitHub/egg-mssql/node_modules/egg-watcher/config/config.default.js",
+      "development": "/Users/jetone/Documents/WorkingPlace/GitHub/egg-mssql/node_modules/egg-watcher/config/config.default.js"
     }
   },
   "multipart": {
-    "autoFields": "e:\\Project\\Gtihub\\egg-mssql\\node_modules\\egg-multipart\\config\\config.default.js",
-    "defaultCharset": "e:\\Project\\Gtihub\\egg-mssql\\node_modules\\egg-multipart\\config\\config.default.js",
-    "fieldNameSize": "e:\\Project\\Gtihub\\egg-mssql\\node_modules\\egg-multipart\\config\\config.default.js",
-    "fieldSize": "e:\\Project\\Gtihub\\egg-mssql\\node_modules\\egg-multipart\\config\\config.default.js",
-    "fields": "e:\\Project\\Gtihub\\egg-mssql\\node_modules\\egg-multipart\\config\\config.default.js",
-    "fileSize": "e:\\Project\\Gtihub\\egg-mssql\\node_modules\\egg-multipart\\config\\config.default.js",
-    "files": "e:\\Project\\Gtihub\\egg-mssql\\node_modules\\egg-multipart\\config\\config.default.js",
-    "fileExtensions": "e:\\Project\\Gtihub\\egg-mssql\\node_modules\\egg-multipart\\config\\config.default.js",
-    "whitelist": "e:\\Project\\Gtihub\\egg-mssql\\node_modules\\egg-multipart\\config\\config.default.js"
+    "autoFields": "/Users/jetone/Documents/WorkingPlace/GitHub/egg-mssql/node_modules/egg-multipart/config/config.default.js",
+    "defaultCharset": "/Users/jetone/Documents/WorkingPlace/GitHub/egg-mssql/node_modules/egg-multipart/config/config.default.js",
+    "fieldNameSize": "/Users/jetone/Documents/WorkingPlace/GitHub/egg-mssql/node_modules/egg-multipart/config/config.default.js",
+    "fieldSize": "/Users/jetone/Documents/WorkingPlace/GitHub/egg-mssql/node_modules/egg-multipart/config/config.default.js",
+    "fields": "/Users/jetone/Documents/WorkingPlace/GitHub/egg-mssql/node_modules/egg-multipart/config/config.default.js",
+    "fileSize": "/Users/jetone/Documents/WorkingPlace/GitHub/egg-mssql/node_modules/egg-multipart/config/config.default.js",
+    "files": "/Users/jetone/Documents/WorkingPlace/GitHub/egg-mssql/node_modules/egg-multipart/config/config.default.js",
+    "fileExtensions": "/Users/jetone/Documents/WorkingPlace/GitHub/egg-mssql/node_modules/egg-multipart/config/config.default.js",
+    "whitelist": "/Users/jetone/Documents/WorkingPlace/GitHub/egg-mssql/node_modules/egg-multipart/config/config.default.js"
   },
   "customLogger": {
     "scheduleLogger": {
-      "consoleLevel": "e:\\Project\\Gtihub\\egg-mssql\\node_modules\\egg-schedule\\config\\config.default.js",
-      "file": "e:\\Project\\Gtihub\\egg-mssql\\node_modules\\egg-schedule\\config\\config.default.js"
+      "consoleLevel": "/Users/jetone/Documents/WorkingPlace/GitHub/egg-mssql/node_modules/egg-schedule/config/config.default.js",
+      "file": "/Users/jetone/Documents/WorkingPlace/GitHub/egg-mssql/node_modules/egg-schedule/config/config.default.js"
     }
   },
   "logrotator": {
-    "filesRotateByHour": "e:\\Project\\Gtihub\\egg-mssql\\node_modules\\egg-logrotator\\config\\config.default.js",
-    "hourDelimiter": "e:\\Project\\Gtihub\\egg-mssql\\node_modules\\egg-logrotator\\config\\config.default.js",
-    "filesRotateBySize": "e:\\Project\\Gtihub\\egg-mssql\\node_modules\\egg-logrotator\\config\\config.default.js",
-    "maxFileSize": "e:\\Project\\Gtihub\\egg-mssql\\node_modules\\egg-logrotator\\config\\config.default.js",
-    "maxFiles": "e:\\Project\\Gtihub\\egg-mssql\\node_modules\\egg-logrotator\\config\\config.default.js",
-    "rotateDuration": "e:\\Project\\Gtihub\\egg-mssql\\node_modules\\egg-logrotator\\config\\config.default.js",
-    "maxDays": "e:\\Project\\Gtihub\\egg-mssql\\node_modules\\egg-logrotator\\config\\config.default.js"
+    "filesRotateByHour": "/Users/jetone/Documents/WorkingPlace/GitHub/egg-mssql/node_modules/egg-logrotator/config/config.default.js",
+    "hourDelimiter": "/Users/jetone/Documents/WorkingPlace/GitHub/egg-mssql/node_modules/egg-logrotator/config/config.default.js",
+    "filesRotateBySize": "/Users/jetone/Documents/WorkingPlace/GitHub/egg-mssql/node_modules/egg-logrotator/config/config.default.js",
+    "maxFileSize": "/Users/jetone/Documents/WorkingPlace/GitHub/egg-mssql/node_modules/egg-logrotator/config/config.default.js",
+    "maxFiles": "/Users/jetone/Documents/WorkingPlace/GitHub/egg-mssql/node_modules/egg-logrotator/config/config.default.js",
+    "rotateDuration": "/Users/jetone/Documents/WorkingPlace/GitHub/egg-mssql/node_modules/egg-logrotator/config/config.default.js",
+    "maxDays": "/Users/jetone/Documents/WorkingPlace/GitHub/egg-mssql/node_modules/egg-logrotator/config/config.default.js"
   },
   "static": {
-    "prefix": "e:\\Project\\Gtihub\\egg-mssql\\node_modules\\egg-static\\config\\config.default.js",
-    "dir": "e:\\Project\\Gtihub\\egg-mssql\\node_modules\\egg-static\\config\\config.default.js",
-    "dynamic": "e:\\Project\\Gtihub\\egg-mssql\\node_modules\\egg-static\\config\\config.default.js",
-    "preload": "e:\\Project\\Gtihub\\egg-mssql\\node_modules\\egg-static\\config\\config.default.js",
-    "buffer": "e:\\Project\\Gtihub\\egg-mssql\\node_modules\\egg-static\\config\\config.default.js",
-    "maxFiles": "e:\\Project\\Gtihub\\egg-mssql\\node_modules\\egg-static\\config\\config.default.js"
+    "prefix": "/Users/jetone/Documents/WorkingPlace/GitHub/egg-mssql/node_modules/egg-static/config/config.default.js",
+    "dir": "/Users/jetone/Documents/WorkingPlace/GitHub/egg-mssql/node_modules/egg-static/config/config.default.js",
+    "dynamic": "/Users/jetone/Documents/WorkingPlace/GitHub/egg-mssql/node_modules/egg-static/config/config.default.js",
+    "preload": "/Users/jetone/Documents/WorkingPlace/GitHub/egg-mssql/node_modules/egg-static/config/config.default.js",
+    "buffer": "/Users/jetone/Documents/WorkingPlace/GitHub/egg-mssql/node_modules/egg-static/config/config.default.js",
+    "maxFiles": "/Users/jetone/Documents/WorkingPlace/GitHub/egg-mssql/node_modules/egg-static/config/config.default.js"
   },
   "view": {
-    "root": "e:\\Project\\Gtihub\\egg-mssql\\node_modules\\egg-view\\config\\config.default.js",
-    "cache": "e:\\Project\\Gtihub\\egg-mssql\\node_modules\\egg-view\\config\\config.default.js",
-    "defaultExtension": "e:\\Project\\Gtihub\\egg-mssql\\node_modules\\egg-view\\config\\config.default.js",
-    "defaultViewEngine": "e:\\Project\\Gtihub\\egg-mssql\\node_modules\\egg-view\\config\\config.default.js",
-    "mapping": "e:\\Project\\Gtihub\\egg-mssql\\node_modules\\egg-view\\config\\config.default.js"
+    "root": "/Users/jetone/Documents/WorkingPlace/GitHub/egg-mssql/node_modules/egg-view/config/config.default.js",
+    "cache": "/Users/jetone/Documents/WorkingPlace/GitHub/egg-mssql/node_modules/egg-view/config/config.default.js",
+    "defaultExtension": "/Users/jetone/Documents/WorkingPlace/GitHub/egg-mssql/node_modules/egg-view/config/config.default.js",
+    "defaultViewEngine": "/Users/jetone/Documents/WorkingPlace/GitHub/egg-mssql/node_modules/egg-view/config/config.default.js",
+    "mapping": "/Users/jetone/Documents/WorkingPlace/GitHub/egg-mssql/node_modules/egg-view/config/config.default.js"
   },
-  "env": "e:\\Project\\Gtihub\\egg-mssql\\node_modules\\egg\\config\\config.default.js",
-  "name": "e:\\Project\\Gtihub\\egg-mssql\\node_modules\\egg\\config\\config.default.js",
-  "keys": "e:\\Project\\Gtihub\\egg-mssql\\node_modules\\egg\\config\\config.default.js",
-  "proxy": "e:\\Project\\Gtihub\\egg-mssql\\node_modules\\egg\\config\\config.default.js",
-  "protocolHeaders": "e:\\Project\\Gtihub\\egg-mssql\\node_modules\\egg\\config\\config.default.js",
-  "ipHeaders": "e:\\Project\\Gtihub\\egg-mssql\\node_modules\\egg\\config\\config.default.js",
-  "hostHeaders": "e:\\Project\\Gtihub\\egg-mssql\\node_modules\\egg\\config\\config.default.js",
+  "env": "/Users/jetone/Documents/WorkingPlace/GitHub/egg-mssql/node_modules/egg/config/config.default.js",
+  "name": "/Users/jetone/Documents/WorkingPlace/GitHub/egg-mssql/node_modules/egg/config/config.default.js",
+  "keys": "/Users/jetone/Documents/WorkingPlace/GitHub/egg-mssql/node_modules/egg/config/config.default.js",
+  "proxy": "/Users/jetone/Documents/WorkingPlace/GitHub/egg-mssql/node_modules/egg/config/config.default.js",
+  "protocolHeaders": "/Users/jetone/Documents/WorkingPlace/GitHub/egg-mssql/node_modules/egg/config/config.default.js",
+  "ipHeaders": "/Users/jetone/Documents/WorkingPlace/GitHub/egg-mssql/node_modules/egg/config/config.default.js",
+  "hostHeaders": "/Users/jetone/Documents/WorkingPlace/GitHub/egg-mssql/node_modules/egg/config/config.default.js",
   "pkg": {
-    "name": "e:\\Project\\Gtihub\\egg-mssql\\node_modules\\egg\\config\\config.default.js",
-    "version": "e:\\Project\\Gtihub\\egg-mssql\\node_modules\\egg\\config\\config.default.js",
-    "description": "e:\\Project\\Gtihub\\egg-mssql\\node_modules\\egg\\config\\config.default.js",
+    "name": "/Users/jetone/Documents/WorkingPlace/GitHub/egg-mssql/node_modules/egg/config/config.default.js",
+    "version": "/Users/jetone/Documents/WorkingPlace/GitHub/egg-mssql/node_modules/egg/config/config.default.js",
+    "description": "/Users/jetone/Documents/WorkingPlace/GitHub/egg-mssql/node_modules/egg/config/config.default.js",
     "eggPlugin": {
-      "name": "e:\\Project\\Gtihub\\egg-mssql\\node_modules\\egg\\config\\config.default.js"
+      "name": "/Users/jetone/Documents/WorkingPlace/GitHub/egg-mssql/node_modules/egg/config/config.default.js"
     },
-    "keywords": "e:\\Project\\Gtihub\\egg-mssql\\node_modules\\egg\\config\\config.default.js",
+    "keywords": "/Users/jetone/Documents/WorkingPlace/GitHub/egg-mssql/node_modules/egg/config/config.default.js",
     "dependencies": {
-      "jt-mssql": "e:\\Project\\Gtihub\\egg-mssql\\node_modules\\egg\\config\\config.default.js"
+      "jt-mssql": "/Users/jetone/Documents/WorkingPlace/GitHub/egg-mssql/node_modules/egg/config/config.default.js"
     },
     "devDependencies": {
-      "autod": "e:\\Project\\Gtihub\\egg-mssql\\node_modules\\egg\\config\\config.default.js",
-      "autod-egg": "e:\\Project\\Gtihub\\egg-mssql\\node_modules\\egg\\config\\config.default.js",
-      "egg": "e:\\Project\\Gtihub\\egg-mssql\\node_modules\\egg\\config\\config.default.js",
-      "egg-bin": "e:\\Project\\Gtihub\\egg-mssql\\node_modules\\egg\\config\\config.default.js",
-      "egg-ci": "e:\\Project\\Gtihub\\egg-mssql\\node_modules\\egg\\config\\config.default.js",
-      "egg-mock": "e:\\Project\\Gtihub\\egg-mssql\\node_modules\\egg\\config\\config.default.js",
-      "eslint": "e:\\Project\\Gtihub\\egg-mssql\\node_modules\\egg\\config\\config.default.js",
-      "eslint-config-egg": "e:\\Project\\Gtihub\\egg-mssql\\node_modules\\egg\\config\\config.default.js",
-      "webstorm-disable-index": "e:\\Project\\Gtihub\\egg-mssql\\node_modules\\egg\\config\\config.default.js"
+      "autod": "/Users/jetone/Documents/WorkingPlace/GitHub/egg-mssql/node_modules/egg/config/config.default.js",
+      "autod-egg": "/Users/jetone/Documents/WorkingPlace/GitHub/egg-mssql/node_modules/egg/config/config.default.js",
+      "egg": "/Users/jetone/Documents/WorkingPlace/GitHub/egg-mssql/node_modules/egg/config/config.default.js",
+      "egg-bin": "/Users/jetone/Documents/WorkingPlace/GitHub/egg-mssql/node_modules/egg/config/config.default.js",
+      "egg-ci": "/Users/jetone/Documents/WorkingPlace/GitHub/egg-mssql/node_modules/egg/config/config.default.js",
+      "egg-mock": "/Users/jetone/Documents/WorkingPlace/GitHub/egg-mssql/node_modules/egg/config/config.default.js",
+      "eslint": "/Users/jetone/Documents/WorkingPlace/GitHub/egg-mssql/node_modules/egg/config/config.default.js",
+      "eslint-config-egg": "/Users/jetone/Documents/WorkingPlace/GitHub/egg-mssql/node_modules/egg/config/config.default.js",
+      "webstorm-disable-index": "/Users/jetone/Documents/WorkingPlace/GitHub/egg-mssql/node_modules/egg/config/config.default.js"
     },
     "engines": {
-      "node": "e:\\Project\\Gtihub\\egg-mssql\\node_modules\\egg\\config\\config.default.js"
+      "node": "/Users/jetone/Documents/WorkingPlace/GitHub/egg-mssql/node_modules/egg/config/config.default.js"
     },
     "scripts": {
-      "test": "e:\\Project\\Gtihub\\egg-mssql\\node_modules\\egg\\config\\config.default.js",
-      "test-local": "e:\\Project\\Gtihub\\egg-mssql\\node_modules\\egg\\config\\config.default.js",
-      "cov": "e:\\Project\\Gtihub\\egg-mssql\\node_modules\\egg\\config\\config.default.js",
-      "lint": "e:\\Project\\Gtihub\\egg-mssql\\node_modules\\egg\\config\\config.default.js",
-      "ci": "e:\\Project\\Gtihub\\egg-mssql\\node_modules\\egg\\config\\config.default.js",
-      "pkgfiles": "e:\\Project\\Gtihub\\egg-mssql\\node_modules\\egg\\config\\config.default.js",
-      "autod": "e:\\Project\\Gtihub\\egg-mssql\\node_modules\\egg\\config\\config.default.js",
-      "reset": "e:\\Project\\Gtihub\\egg-mssql\\node_modules\\egg\\config\\config.default.js",
-      "china": "e:\\Project\\Gtihub\\egg-mssql\\node_modules\\egg\\config\\config.default.js"
+      "test": "/Users/jetone/Documents/WorkingPlace/GitHub/egg-mssql/node_modules/egg/config/config.default.js",
+      "test-local": "/Users/jetone/Documents/WorkingPlace/GitHub/egg-mssql/node_modules/egg/config/config.default.js",
+      "cov": "/Users/jetone/Documents/WorkingPlace/GitHub/egg-mssql/node_modules/egg/config/config.default.js",
+      "lint": "/Users/jetone/Documents/WorkingPlace/GitHub/egg-mssql/node_modules/egg/config/config.default.js",
+      "ci": "/Users/jetone/Documents/WorkingPlace/GitHub/egg-mssql/node_modules/egg/config/config.default.js",
+      "pkgfiles": "/Users/jetone/Documents/WorkingPlace/GitHub/egg-mssql/node_modules/egg/config/config.default.js",
+      "autod": "/Users/jetone/Documents/WorkingPlace/GitHub/egg-mssql/node_modules/egg/config/config.default.js",
+      "reset": "/Users/jetone/Documents/WorkingPlace/GitHub/egg-mssql/node_modules/egg/config/config.default.js",
+      "china": "/Users/jetone/Documents/WorkingPlace/GitHub/egg-mssql/node_modules/egg/config/config.default.js"
     },
-    "files": "e:\\Project\\Gtihub\\egg-mssql\\node_modules\\egg\\config\\config.default.js",
+    "files": "/Users/jetone/Documents/WorkingPlace/GitHub/egg-mssql/node_modules/egg/config/config.default.js",
     "ci": {
-      "version": "e:\\Project\\Gtihub\\egg-mssql\\node_modules\\egg\\config\\config.default.js"
+      "version": "/Users/jetone/Documents/WorkingPlace/GitHub/egg-mssql/node_modules/egg/config/config.default.js"
     },
     "repository": {
-      "type": "e:\\Project\\Gtihub\\egg-mssql\\node_modules\\egg\\config\\config.default.js",
-      "url": "e:\\Project\\Gtihub\\egg-mssql\\node_modules\\egg\\config\\config.default.js"
+      "type": "/Users/jetone/Documents/WorkingPlace/GitHub/egg-mssql/node_modules/egg/config/config.default.js",
+      "url": "/Users/jetone/Documents/WorkingPlace/GitHub/egg-mssql/node_modules/egg/config/config.default.js"
     },
     "bugs": {
-      "url": "e:\\Project\\Gtihub\\egg-mssql\\node_modules\\egg\\config\\config.default.js"
+      "url": "/Users/jetone/Documents/WorkingPlace/GitHub/egg-mssql/node_modules/egg/config/config.default.js"
     },
-    "homepage": "e:\\Project\\Gtihub\\egg-mssql\\node_modules\\egg\\config\\config.default.js",
-    "author": "e:\\Project\\Gtihub\\egg-mssql\\node_modules\\egg\\config\\config.default.js",
-    "license": "e:\\Project\\Gtihub\\egg-mssql\\node_modules\\egg\\config\\config.default.js"
+    "homepage": "/Users/jetone/Documents/WorkingPlace/GitHub/egg-mssql/node_modules/egg/config/config.default.js",
+    "author": "/Users/jetone/Documents/WorkingPlace/GitHub/egg-mssql/node_modules/egg/config/config.default.js",
+    "license": "/Users/jetone/Documents/WorkingPlace/GitHub/egg-mssql/node_modules/egg/config/config.default.js"
   },
-  "baseDir": "e:\\Project\\Gtihub\\egg-mssql\\node_modules\\egg\\config\\config.default.js",
-  "HOME": "e:\\Project\\Gtihub\\egg-mssql\\node_modules\\egg\\config\\config.default.js",
-  "rundir": "e:\\Project\\Gtihub\\egg-mssql\\node_modules\\egg\\config\\config.default.js",
+  "baseDir": "/Users/jetone/Documents/WorkingPlace/GitHub/egg-mssql/node_modules/egg/config/config.default.js",
+  "HOME": "/Users/jetone/Documents/WorkingPlace/GitHub/egg-mssql/node_modules/egg/config/config.default.js",
+  "rundir": "/Users/jetone/Documents/WorkingPlace/GitHub/egg-mssql/node_modules/egg/config/config.default.js",
   "dump": {
-    "ignore": "e:\\Project\\Gtihub\\egg-mssql\\node_modules\\egg\\config\\config.default.js"
+    "ignore": "/Users/jetone/Documents/WorkingPlace/GitHub/egg-mssql/node_modules/egg/config/config.default.js"
   },
   "confusedConfigurations": {
-    "bodyparser": "e:\\Project\\Gtihub\\egg-mssql\\node_modules\\egg\\config\\config.default.js",
-    "notFound": "e:\\Project\\Gtihub\\egg-mssql\\node_modules\\egg\\config\\config.default.js",
-    "sitefile": "e:\\Project\\Gtihub\\egg-mssql\\node_modules\\egg\\config\\config.default.js",
-    "middlewares": "e:\\Project\\Gtihub\\egg-mssql\\node_modules\\egg\\config\\config.default.js",
-    "httpClient": "e:\\Project\\Gtihub\\egg-mssql\\node_modules\\egg\\config\\config.default.js"
+    "bodyparser": "/Users/jetone/Documents/WorkingPlace/GitHub/egg-mssql/node_modules/egg/config/config.default.js",
+    "notFound": "/Users/jetone/Documents/WorkingPlace/GitHub/egg-mssql/node_modules/egg/config/config.default.js",
+    "sitefile": "/Users/jetone/Documents/WorkingPlace/GitHub/egg-mssql/node_modules/egg/config/config.default.js",
+    "middlewares": "/Users/jetone/Documents/WorkingPlace/GitHub/egg-mssql/node_modules/egg/config/config.default.js",
+    "httpClient": "/Users/jetone/Documents/WorkingPlace/GitHub/egg-mssql/node_modules/egg/config/config.default.js"
   },
   "notfound": {
-    "pageUrl": "e:\\Project\\Gtihub\\egg-mssql\\node_modules\\egg\\config\\config.default.js"
+    "pageUrl": "/Users/jetone/Documents/WorkingPlace/GitHub/egg-mssql/node_modules/egg/config/config.default.js"
   },
   "siteFile": {
-    "/favicon.ico": "e:\\Project\\Gtihub\\egg-mssql\\node_modules\\egg\\config\\config.default.js"
+    "/favicon.ico": "/Users/jetone/Documents/WorkingPlace/GitHub/egg-mssql/node_modules/egg/config/config.default.js"
   },
   "bodyParser": {
-    "enable": "e:\\Project\\Gtihub\\egg-mssql\\node_modules\\egg\\config\\config.default.js",
-    "encoding": "e:\\Project\\Gtihub\\egg-mssql\\node_modules\\egg\\config\\config.default.js",
-    "formLimit": "e:\\Project\\Gtihub\\egg-mssql\\node_modules\\egg\\config\\config.default.js",
-    "jsonLimit": "e:\\Project\\Gtihub\\egg-mssql\\node_modules\\egg\\config\\config.default.js",
-    "strict": "e:\\Project\\Gtihub\\egg-mssql\\node_modules\\egg\\config\\config.default.js",
+    "enable": "/Users/jetone/Documents/WorkingPlace/GitHub/egg-mssql/node_modules/egg/config/config.default.js",
+    "encoding": "/Users/jetone/Documents/WorkingPlace/GitHub/egg-mssql/node_modules/egg/config/config.default.js",
+    "formLimit": "/Users/jetone/Documents/WorkingPlace/GitHub/egg-mssql/node_modules/egg/config/config.default.js",
+    "jsonLimit": "/Users/jetone/Documents/WorkingPlace/GitHub/egg-mssql/node_modules/egg/config/config.default.js",
+    "strict": "/Users/jetone/Documents/WorkingPlace/GitHub/egg-mssql/node_modules/egg/config/config.default.js",
     "queryString": {
-      "arrayLimit": "e:\\Project\\Gtihub\\egg-mssql\\node_modules\\egg\\config\\config.default.js",
-      "depth": "e:\\Project\\Gtihub\\egg-mssql\\node_modules\\egg\\config\\config.default.js",
-      "parameterLimit": "e:\\Project\\Gtihub\\egg-mssql\\node_modules\\egg\\config\\config.default.js"
+      "arrayLimit": "/Users/jetone/Documents/WorkingPlace/GitHub/egg-mssql/node_modules/egg/config/config.default.js",
+      "depth": "/Users/jetone/Documents/WorkingPlace/GitHub/egg-mssql/node_modules/egg/config/config.default.js",
+      "parameterLimit": "/Users/jetone/Documents/WorkingPlace/GitHub/egg-mssql/node_modules/egg/config/config.default.js"
     }
   },
   "logger": {
-    "dir": "e:\\Project\\Gtihub\\egg-mssql\\node_modules\\egg\\config\\config.default.js",
-    "encoding": "e:\\Project\\Gtihub\\egg-mssql\\node_modules\\egg\\config\\config.default.js",
-    "env": "e:\\Project\\Gtihub\\egg-mssql\\node_modules\\egg\\config\\config.default.js",
-    "level": "e:\\Project\\Gtihub\\egg-mssql\\node_modules\\egg\\config\\config.default.js",
-    "consoleLevel": "e:\\Project\\Gtihub\\egg-mssql\\node_modules\\egg\\config\\config.unittest.js",
-    "disableConsoleAfterReady": "e:\\Project\\Gtihub\\egg-mssql\\node_modules\\egg\\config\\config.default.js",
-    "outputJSON": "e:\\Project\\Gtihub\\egg-mssql\\node_modules\\egg\\config\\config.default.js",
-    "buffer": "e:\\Project\\Gtihub\\egg-mssql\\node_modules\\egg\\config\\config.unittest.js",
-    "appLogName": "e:\\Project\\Gtihub\\egg-mssql\\node_modules\\egg\\config\\config.default.js",
-    "coreLogName": "e:\\Project\\Gtihub\\egg-mssql\\node_modules\\egg\\config\\config.default.js",
-    "agentLogName": "e:\\Project\\Gtihub\\egg-mssql\\node_modules\\egg\\config\\config.default.js",
-    "errorLogName": "e:\\Project\\Gtihub\\egg-mssql\\node_modules\\egg\\config\\config.default.js",
-    "coreLogger": "e:\\Project\\Gtihub\\egg-mssql\\node_modules\\egg\\config\\config.default.js",
-    "allowDebugAtProd": "e:\\Project\\Gtihub\\egg-mssql\\node_modules\\egg\\config\\config.default.js"
+    "dir": "/Users/jetone/Documents/WorkingPlace/GitHub/egg-mssql/node_modules/egg/config/config.default.js",
+    "encoding": "/Users/jetone/Documents/WorkingPlace/GitHub/egg-mssql/node_modules/egg/config/config.default.js",
+    "env": "/Users/jetone/Documents/WorkingPlace/GitHub/egg-mssql/node_modules/egg/config/config.default.js",
+    "level": "/Users/jetone/Documents/WorkingPlace/GitHub/egg-mssql/node_modules/egg/config/config.default.js",
+    "consoleLevel": "/Users/jetone/Documents/WorkingPlace/GitHub/egg-mssql/node_modules/egg/config/config.unittest.js",
+    "disableConsoleAfterReady": "/Users/jetone/Documents/WorkingPlace/GitHub/egg-mssql/node_modules/egg/config/config.default.js",
+    "outputJSON": "/Users/jetone/Documents/WorkingPlace/GitHub/egg-mssql/node_modules/egg/config/config.default.js",
+    "buffer": "/Users/jetone/Documents/WorkingPlace/GitHub/egg-mssql/node_modules/egg/config/config.unittest.js",
+    "appLogName": "/Users/jetone/Documents/WorkingPlace/GitHub/egg-mssql/node_modules/egg/config/config.default.js",
+    "coreLogName": "/Users/jetone/Documents/WorkingPlace/GitHub/egg-mssql/node_modules/egg/config/config.default.js",
+    "agentLogName": "/Users/jetone/Documents/WorkingPlace/GitHub/egg-mssql/node_modules/egg/config/config.default.js",
+    "errorLogName": "/Users/jetone/Documents/WorkingPlace/GitHub/egg-mssql/node_modules/egg/config/config.default.js",
+    "coreLogger": "/Users/jetone/Documents/WorkingPlace/GitHub/egg-mssql/node_modules/egg/config/config.default.js",
+    "allowDebugAtProd": "/Users/jetone/Documents/WorkingPlace/GitHub/egg-mssql/node_modules/egg/config/config.default.js"
   },
   "httpclient": {
-    "enableDNSCache": "e:\\Project\\Gtihub\\egg-mssql\\node_modules\\egg\\config\\config.default.js",
-    "dnsCacheMaxLength": "e:\\Project\\Gtihub\\egg-mssql\\node_modules\\egg\\config\\config.default.js",
-    "dnsCacheMaxAge": "e:\\Project\\Gtihub\\egg-mssql\\node_modules\\egg\\config\\config.default.js",
+    "enableDNSCache": "/Users/jetone/Documents/WorkingPlace/GitHub/egg-mssql/node_modules/egg/config/config.default.js",
+    "dnsCacheMaxLength": "/Users/jetone/Documents/WorkingPlace/GitHub/egg-mssql/node_modules/egg/config/config.default.js",
+    "dnsCacheMaxAge": "/Users/jetone/Documents/WorkingPlace/GitHub/egg-mssql/node_modules/egg/config/config.default.js",
     "request": {
-      "timeout": "e:\\Project\\Gtihub\\egg-mssql\\node_modules\\egg\\config\\config.default.js"
+      "timeout": "/Users/jetone/Documents/WorkingPlace/GitHub/egg-mssql/node_modules/egg/config/config.default.js"
     },
     "httpAgent": {
-      "keepAlive": "e:\\Project\\Gtihub\\egg-mssql\\node_modules\\egg\\config\\config.default.js",
-      "freeSocketKeepAliveTimeout": "e:\\Project\\Gtihub\\egg-mssql\\node_modules\\egg\\config\\config.default.js",
-      "maxSockets": "e:\\Project\\Gtihub\\egg-mssql\\node_modules\\egg\\config\\config.default.js",
-      "maxFreeSockets": "e:\\Project\\Gtihub\\egg-mssql\\node_modules\\egg\\config\\config.default.js"
+      "keepAlive": "/Users/jetone/Documents/WorkingPlace/GitHub/egg-mssql/node_modules/egg/config/config.default.js",
+      "freeSocketKeepAliveTimeout": "/Users/jetone/Documents/WorkingPlace/GitHub/egg-mssql/node_modules/egg/config/config.default.js",
+      "maxSockets": "/Users/jetone/Documents/WorkingPlace/GitHub/egg-mssql/node_modules/egg/config/config.default.js",
+      "maxFreeSockets": "/Users/jetone/Documents/WorkingPlace/GitHub/egg-mssql/node_modules/egg/config/config.default.js"
     },
     "httpsAgent": {
-      "keepAlive": "e:\\Project\\Gtihub\\egg-mssql\\node_modules\\egg\\config\\config.default.js",
-      "freeSocketKeepAliveTimeout": "e:\\Project\\Gtihub\\egg-mssql\\node_modules\\egg\\config\\config.default.js",
-      "maxSockets": "e:\\Project\\Gtihub\\egg-mssql\\node_modules\\egg\\config\\config.default.js",
-      "maxFreeSockets": "e:\\Project\\Gtihub\\egg-mssql\\node_modules\\egg\\config\\config.default.js"
+      "keepAlive": "/Users/jetone/Documents/WorkingPlace/GitHub/egg-mssql/node_modules/egg/config/config.default.js",
+      "freeSocketKeepAliveTimeout": "/Users/jetone/Documents/WorkingPlace/GitHub/egg-mssql/node_modules/egg/config/config.default.js",
+      "maxSockets": "/Users/jetone/Documents/WorkingPlace/GitHub/egg-mssql/node_modules/egg/config/config.default.js",
+      "maxFreeSockets": "/Users/jetone/Documents/WorkingPlace/GitHub/egg-mssql/node_modules/egg/config/config.default.js"
     }
   },
   "meta": {
-    "enable": "e:\\Project\\Gtihub\\egg-mssql\\node_modules\\egg\\config\\config.default.js",
-    "logging": "e:\\Project\\Gtihub\\egg-mssql\\node_modules\\egg\\config\\config.default.js"
+    "enable": "/Users/jetone/Documents/WorkingPlace/GitHub/egg-mssql/node_modules/egg/config/config.default.js",
+    "logging": "/Users/jetone/Documents/WorkingPlace/GitHub/egg-mssql/node_modules/egg/config/config.default.js"
   },
-  "coreMiddleware": "e:\\Project\\Gtihub\\egg-mssql\\node_modules\\egg\\config\\config.default.js",
-  "workerStartTimeout": "e:\\Project\\Gtihub\\egg-mssql\\node_modules\\egg\\config\\config.default.js",
+  "coreMiddleware": "/Users/jetone/Documents/WorkingPlace/GitHub/egg-mssql/node_modules/egg/config/config.default.js",
+  "workerStartTimeout": "/Users/jetone/Documents/WorkingPlace/GitHub/egg-mssql/node_modules/egg/config/config.default.js",
   "cluster": {
     "listen": {
-      "path": "e:\\Project\\Gtihub\\egg-mssql\\node_modules\\egg\\config\\config.default.js",
-      "port": "e:\\Project\\Gtihub\\egg-mssql\\node_modules\\egg\\config\\config.default.js",
-      "hostname": "e:\\Project\\Gtihub\\egg-mssql\\node_modules\\egg\\config\\config.default.js"
+      "path": "/Users/jetone/Documents/WorkingPlace/GitHub/egg-mssql/node_modules/egg/config/config.default.js",
+      "port": "/Users/jetone/Documents/WorkingPlace/GitHub/egg-mssql/node_modules/egg/config/config.default.js",
+      "hostname": "/Users/jetone/Documents/WorkingPlace/GitHub/egg-mssql/node_modules/egg/config/config.default.js"
     }
   },
   "clusterClient": {
-    "maxWaitTime": "e:\\Project\\Gtihub\\egg-mssql\\node_modules\\egg\\config\\config.default.js",
-    "responseTimeout": "e:\\Project\\Gtihub\\egg-mssql\\node_modules\\egg\\config\\config.default.js"
+    "maxWaitTime": "/Users/jetone/Documents/WorkingPlace/GitHub/egg-mssql/node_modules/egg/config/config.default.js",
+    "responseTimeout": "/Users/jetone/Documents/WorkingPlace/GitHub/egg-mssql/node_modules/egg/config/config.default.js"
   },
-  "onClientError": "e:\\Project\\Gtihub\\egg-mssql\\node_modules\\egg\\config\\config.default.js"
+  "onClientError": "/Users/jetone/Documents/WorkingPlace/GitHub/egg-mssql/node_modules/egg/config/config.default.js"
 }

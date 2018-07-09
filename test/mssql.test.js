@@ -39,6 +39,28 @@ describe("test/mssql.test.js", () => {
     }]);
     assert(result.recordset[0].id !== undefined);
   });
+  it("asynInsert Test2", async () => {
+    const pool = await app.mssql.get('db1')
+    const result = await pool.request().asyncInsert(`Create table #NodeTemp (
+      DeviceNum Nvarchar(50),
+      SimNum Nvarchar(50)
+      );
+      insert into #NodeTemp (DeviceNum,SimNum)
+      values(@DeviceNum,@SimNum);
+      select bundleTable.Id as BundleId
+      from (select b.Id, d.DeviceNum,s.SimNum from dbo.Bundle b
+          left join Device d on b.DeviceId=d.Id
+          left join Sim s on b.SimId=s.Id
+          where b.Status='1' and b.CompanyId=65) bundleTable
+      left join #NodeTemp nt on bundleTable.DeviceNum=nt.DeviceNum and bundleTable.SimNum=nt.SimNum
+      drop table #NodeTemp`, [{
+      DeviceNum: '20180620B',
+      SimNum: '11122233336'
+    }]);
+
+    console.log(result);
+
+  })
 
   it("asyn transaction test", async () => {
     const pool = await app.mssql.get('db1');
@@ -61,4 +83,5 @@ describe("test/mssql.test.js", () => {
       }
     });
   })
+
 });

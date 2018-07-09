@@ -31,3 +31,8 @@
 //     database: 'database',
 //   },
 // },
+exports.mssql = {
+    clients: {
+
+    }
+}
