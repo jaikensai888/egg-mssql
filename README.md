@@ -8,7 +8,7 @@ Mssql Plugin for Egg FrameWork
 
 ## version
 
-ver1.0.3
+ver1.0.4
 
 
 
