@@ -1,6 +1,6 @@
 {
   "name": "jt-egg-mssql",
-  "version": "1.0.5",
+  "version": "1.0.19",
   "description": "",
   "eggPlugin": {
     "name": "jt-egg-mssql"
@@ -11,7 +11,7 @@
     "egg-plugin"
   ],
   "dependencies": {
-    "jt-mssql": "^1.0.6"
+    "jt-mssql": "^1.0.18"
   },
   "devDependencies": {
     "autod": "^3.0.0",

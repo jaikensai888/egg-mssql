@@ -1,14 +1,6 @@
 {
   "mssql": {
-    "clients": {
-      "db1": {
-        "user": "/Users/jetone/Documents/WorkingPlace/GitHub/egg-mssql/config/config.default.js",
-        "password": "/Users/jetone/Documents/WorkingPlace/GitHub/egg-mssql/config/config.default.js",
-        "server": "/Users/jetone/Documents/WorkingPlace/GitHub/egg-mssql/config/config.default.js",
-        "database": "/Users/jetone/Documents/WorkingPlace/GitHub/egg-mssql/config/config.default.js",
-        "port": "/Users/jetone/Documents/WorkingPlace/GitHub/egg-mssql/config/config.default.js"
-      }
-    }
+    "clients": "/Users/jetone/Documents/WorkingPlace/GitHub/egg-mssql/config/config.default.js"
   },
   "session": {
     "maxAge": "/Users/jetone/Documents/WorkingPlace/GitHub/egg-mssql/node_modules/egg-session/config/config.default.js",

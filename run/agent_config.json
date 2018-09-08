@@ -130,15 +130,7 @@
       "mapping": {}
     },
     "mssql": {
-      "clients": {
-        "db1": {
-          "user": "rep",
-          "password": "<String len: 10>",
-          "server": "59.39.71.105",
-          "database": "CustomerServiceSys",
-          "port": "14433"
-        }
-      }
+      "clients": {}
     },
     "env": "unittest",
     "name": "jt-egg-mssql",
@@ -149,10 +141,10 @@
     "hostHeaders": "",
     "pkg": {
       "name": "jt-egg-mssql",
-      "version": "1.0.2",
+      "version": "1.0.18",
       "description": "",
       "eggPlugin": {
-        "name": "egg-mssql"
+        "name": "jt-egg-mssql"
       },
       "keywords": [
         "egg",
@@ -160,7 +152,7 @@
         "egg-plugin"
       ],
       "dependencies": {
-        "jt-mssql": "^1.0.4"
+        "jt-mssql": "^1.0.18"
       },
       "devDependencies": {
         "autod": "^3.0.0",
@@ -441,14 +433,14 @@
       "env": [],
       "version": "3.17.0"
     },
-    "egg-mssql": {
+    "jt-egg-mssql": {
       "enable": true,
       "path": "/Users/jetone/Documents/WorkingPlace/GitHub/egg-mssql",
-      "name": "egg-mssql",
+      "name": "jt-egg-mssql",
       "dependencies": [],
       "optionalDependencies": [],
       "env": [],
-      "version": "1.0.2"
+      "version": "1.0.18"
     }
   }
 }
