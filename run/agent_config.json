@@ -130,7 +130,26 @@
       "mapping": {}
     },
     "mssql": {
-      "clients": {}
+      "clients": {
+        "db1": {
+          "user": "rep",
+          "password": "<String len: 10>",
+          "server": "59.39.71.105",
+          "database": "CustomerServerSys_Import",
+          "port": "14433",
+          "connectionTimeout": 180000,
+          "requestTimeout": 180000
+        },
+        "db2": {
+          "user": "rep",
+          "password": "<String len: 10>",
+          "server": "59.39.71.105",
+          "database": "CustomerServerSys_Import",
+          "port": "14433",
+          "connectionTimeout": 180000,
+          "requestTimeout": 180000
+        }
+      }
     },
     "env": "unittest",
     "name": "jt-egg-mssql",
@@ -141,7 +160,7 @@
     "hostHeaders": "",
     "pkg": {
       "name": "jt-egg-mssql",
-      "version": "1.0.18",
+      "version": "1.0.19",
       "description": "",
       "eggPlugin": {
         "name": "jt-egg-mssql"
@@ -440,7 +459,7 @@
       "dependencies": [],
       "optionalDependencies": [],
       "env": [],
-      "version": "1.0.18"
+      "version": "1.0.19"
     }
   }
 }
