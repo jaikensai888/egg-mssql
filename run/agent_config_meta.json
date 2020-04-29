@@ -163,7 +163,9 @@
     },
     "keywords": "/Users/jetone/Documents/WorkingPlace/GitHub/egg-mssql/node_modules/egg/config/config.default.js",
     "dependencies": {
-      "jt-mssql": "/Users/jetone/Documents/WorkingPlace/GitHub/egg-mssql/node_modules/egg/config/config.default.js"
+      "jt-jsextension": "/Users/jetone/Documents/WorkingPlace/GitHub/egg-mssql/node_modules/egg/config/config.default.js",
+      "jt-mssql": "/Users/jetone/Documents/WorkingPlace/GitHub/egg-mssql/node_modules/egg/config/config.default.js",
+      "mssql": "/Users/jetone/Documents/WorkingPlace/GitHub/egg-mssql/node_modules/egg/config/config.default.js"
     },
     "devDependencies": {
       "autod": "/Users/jetone/Documents/WorkingPlace/GitHub/egg-mssql/node_modules/egg/config/config.default.js",

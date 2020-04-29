@@ -12,7 +12,8 @@
   ],
   "dependencies": {
     "jt-jsextension": "^1.0.14",
-    "jt-mssql": "^1.0.18"
+    "jt-mssql": "^1.0.18",
+    "mssql": "^6.2.0"
   },
   "devDependencies": {
     "autod": "^3.0.0",

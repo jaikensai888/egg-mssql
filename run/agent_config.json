@@ -136,7 +136,7 @@
           "password": "<String len: 10>",
           "server": "59.39.71.105",
           "database": "CustomerServerSys_Import",
-          "port": "14433",
+          "port": 14433,
           "connectionTimeout": 180000,
           "requestTimeout": 180000
         },
@@ -145,7 +145,7 @@
           "password": "<String len: 10>",
           "server": "59.39.71.105",
           "database": "CustomerServerSys_Import",
-          "port": "14433",
+          "port": 14433,
           "connectionTimeout": 180000,
           "requestTimeout": 180000
         }
@@ -160,7 +160,7 @@
     "hostHeaders": "",
     "pkg": {
       "name": "jt-egg-mssql",
-      "version": "1.0.19",
+      "version": "1.0.20",
       "description": "",
       "eggPlugin": {
         "name": "jt-egg-mssql"
@@ -171,7 +171,9 @@
         "egg-plugin"
       ],
       "dependencies": {
-        "jt-mssql": "^1.0.18"
+        "jt-jsextension": "^1.0.14",
+        "jt-mssql": "^1.0.18",
+        "mssql": "^6.2.0"
       },
       "devDependencies": {
         "autod": "^3.0.0",
@@ -459,7 +461,7 @@
       "dependencies": [],
       "optionalDependencies": [],
       "env": [],
-      "version": "1.0.19"
+      "version": "1.0.20"
     }
   }
 }

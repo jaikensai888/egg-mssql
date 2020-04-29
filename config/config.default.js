@@ -38,7 +38,7 @@ exports.mssql = {
             password: 'SQL+Server',
             server: '59.39.71.105',
             database: 'CustomerServerSys_Import',
-            port: '14433',
+            port: 14433,
             connectionTimeout: 180000,
             requestTimeout: 180000,
         },
@@ -47,7 +47,7 @@ exports.mssql = {
             password: 'SQL+Server',
             server: '59.39.71.105',
             database: 'CustomerServerSys_Import',
-            port: '14433',
+            port: 14433,
             connectionTimeout: 180000,
             requestTimeout: 180000,
         }

@@ -9,7 +9,6 @@ const {
   mock,
   assert
 } = require('egg-mock/bootstrap');
-const sql = require('jt-mssql');
 
 describe("test/mssql.test.js", () => {
   it("singletonDb Test", async () => {
@@ -27,10 +26,10 @@ describe("test/mssql.test.js", () => {
   });
   it("asyncQuery Test", async () => {
     const pool = await app.mssql.get('db1');
-    const result = await pool.request().asyncQuery("select TemplateId from myTable2 where id=@id", {
+    const result = await pool.request().asyncQuery("select * from Company where id=@id", {
       id: 1
     });
-    assert(result.recordset[0].TemplateId == 1);
+    assert(result.recordset[0].Id == 1);
   });
   it("asyncInsert Test", async () => {
     const pool = await app.mssql.get('db1');
